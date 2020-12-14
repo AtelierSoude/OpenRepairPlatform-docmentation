@@ -1,0 +1,13 @@
+site_name: My Docs
+theme:
+ name: material
+ logo: assets/logo.png
+ features:
+    - navigation.sections
+ language: fr
+extra_css:
+ - stylesheets/extra.css
+repo_url: https://github.com/ClemsP/OpenRepairPlatform
+site_name: OpenRepairPlatform & Réparons
+markdown_extensions:
+  - admonition
