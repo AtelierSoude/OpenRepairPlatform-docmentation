@@ -11,3 +11,28 @@ repo_url: https://github.com/ClemsP/OpenRepairPlatform
 site_name: OpenRepairPlatform & Réparons
 markdown_extensions:
   - admonition
+  - fontawesome_markdown
+nav:
+  - 'index.md'
+  - 'Déploiement': 
+      - 'deploiement/installation.md'
+      - 'deploiement/first-lauch.md'
+  - 'architecture.md'
+  - 'Compte personnel':
+      - 'account/create-account.md'
+      - 'account/profil.md'
+  - 'activity.md'
+  - 'location.md'
+  - 'Evénements': 
+      - 'event/reservation.md'
+      - 'event/create-event.md'
+      - 'event/manage-event.md'
+  - 'Organisation': 
+      - 'organization/groups.md'
+      - 'organization/members.md'
+      - 'organization/fees.md'
+  - 'Inventaire /stock ': 
+      - 'inventory/'
+  - 'Réparation':
+      - 'repair/repair-folder.md'
+      - 'repair/repair-index.md'

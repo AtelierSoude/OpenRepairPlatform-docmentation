@@ -1,3 +1,6 @@
+
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css");
+
 :root {
   --md-typeset-a-color:  #49D3BE;
   --md-primary-fg-color: #083342;
@@ -16,4 +19,13 @@
 .md-header-nav__button.md-logo img, .md-header-nav__button.md-logo svg {
   width: 2rem;
   height: 2rem;
+}
+
+.fa {
+    font-size: 17px;
+    background-color: #2be6ab;
+    padding: 10px;
+    padding-left: 10px;
+    border-radius: 50%;
+    padding-left: 12.5px;
 }
