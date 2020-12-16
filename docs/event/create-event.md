@@ -1,6 +1,5 @@
 # Créer un événement
 
-
 ## Accéder au formulaire
 
 !!! info "Qui peut créer un événément ?"
