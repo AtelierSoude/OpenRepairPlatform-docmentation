@@ -21,5 +21,3 @@ En effet, lors de l’inscription, seule une adresse mail est requise. C’est l
 Finalement, à la fin de l’événement, il est nécessaire de le clôturer grâce à la touche éponyme **(5)** afin d’enregistrer les informations (de créer les abonnements et créer les cotisations associées). La clôture de l'événement va également supprimer de la base de données les comptes mails rattachés aux personnes n'ayant pas participé.
 
 L’événement s’archive automatiquement une fois l’horaire de fin atteint.
-
-
