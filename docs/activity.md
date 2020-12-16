@@ -9,7 +9,7 @@ Ces dernières sont classées par catégories (Ateliers de réparations, atelier
 
 ![Page descriptive de l'activité](../assets/activity/4.png)
 
-Sur cette page on retrouve, l’image illustrant l’activité ; sa thématique, l’organisateur, sa description et ses prochains évènements dans la rubrique ***prochaines dates***. Pour participer à l’un des évènements, il suffit de cliquer sur l’encart de celui-ci et suivre les instructions de la rubrique [***Événements***](../event/reservation.md). Pour les administrateurs il est possible d’éditer et de supprimer sa propre activité.
+Sur cette page on retrouve, l’image illustrant l’activité ; sa thématique, l’organisateur, sa description et ses prochains évènements dans la rubrique ***prochaines dates***. Pour participer à l’un des évènements, il suffit de cliquer sur l’encart de celui-ci et suivre les instructions de la rubrique [***Événements***](../event/reservation.md). 
 
 
 ## Créer une activité
