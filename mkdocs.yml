@@ -21,9 +21,7 @@ nav:
   - 'Compte personnel':
       - 'account/create-account.md'
       - 'account/profil.md'
-  - 'Activités':
-      - 'activity/browse-activities.md'
-      - 'activity/create-activity.md'
+  - 'activity.md'
   - 'location.md'
   - 'Evènements': 
       - 'event/event-index.md'
