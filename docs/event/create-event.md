@@ -1,6 +1,6 @@
 # Créer un événement
 
-!!! info "Seul l'administrateur peut créer des évènements."
+!!! info "Seuls les membres actifs et les administrateurs-trices l'organisation peuvent créer des évènements."
 
 Cela se fait depuis l’onglet «**Organisation**» → Choisir l’association organisatrice → «**Evénement**» → «**Ajouter un événement**»
 
