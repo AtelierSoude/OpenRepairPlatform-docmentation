@@ -29,3 +29,8 @@
     border-radius: 50%;
     padding-left: 12.5px;
 }
+
+img[src*='#center'] { 
+  display: block;
+  margin: auto;
+}

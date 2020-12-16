@@ -1,54 +1,77 @@
 # Créer un événement
 
-!!! info "Seul l'administrateur peut créer des évènements."
 
-Cela se fait depuis l’onglet «**Organisation**» → Choisir l’association organisatrice → «**Evénement**» → «**Ajouter un événement**»
+## Accéder au formulaire
+
+!!! info "Qui peut créer un événément ?"
+    Seul les membres actifs et administrateurs d'une organisation peuvent le faire. Voir [gestion des groupes]("organization/groups.md")
+
+**url** 
+```
+/<nom_organization>/events/
+```
+
+Page «**Organisation**» → Choisir l'organisation → «**Evénement**» → «**Ajouter un événement**»
+
 
 ![Création d'un évènement](../assets/CreaEv.png)
 
-Il est possible d’ajouter des événements de manière ponctuelle ou récurrente.
 
-Il est ensuite nécessaire de renseigner des informations de bases telles que le type d’activité, le nombre de participants, d’animateurs, le lieu, la date et horaire, un descriptif. A cela s’ajoute des options spécifiques telles que les conditions d’inscription, le renseignement par l’utilisateur de l’appareil à réparer…
+Il est possible d’ajouter des **événements ponctuels ou récurrents**. Il existe 2 formulaires différents, accessibles en bas de cette page.
 
-Pour créer un évènement, certains objets doivent au préalable exister, sans lesquels il ne sera pas possible de créer un événement :
+![Création d'un évènement](../assets/CreaEvBtn.png#center)
 
-- **Activity** : choisir une activité dans le menu déroulant. L'activité doit faire partie de celles enregistrées par l'association. Si l'événement est une nouvelle activité (qui n'est donc pas visible dans le menu), il faut d'abord la créer dans le catalogue des activités. La démarche est détaillée dans la partie "**Activité**" - "**Création**" .
 
-- **Pas de limite de place** : permet une inscription illimitée de participants
+Ces deux formulaire utilisent ce même [formulaire](#formulaire) décrit ci dessous. Le formulaire de création [d'événéments réccurents](#evenement-recurrent) inclu des champs supplémentaires.
 
-- **Places disponibles** : ce champ permet de définir le nombre de participants (hors bénévoles) pouvant assister à l'événement. Le nombre d'inscription ne pourra dépasser cette valeur.
 
-- **Réservation interne au site** : permet l'inscription à l'événement depuis le site
+## Formulaire de création 
 
-- **Souhaitez vous gérer des réparations** : offre la possibilité aux participants d'informer des objets qu'ils ont à réparer
+!!! warning "Certaines entités doivent exister au préalable"
+    Vous ne pourrez pas créer d'événéments s'il n'existe pas de type d'activité ni de lieu
+    . [créer une activités]("activity.md") , [créer un lieu]("location.md")
 
-- **En association avec** : Si l'événement se fait en partenariat avec un autre acteur, il est possible de le nommer ici.
+| Champ | description |
+|:--|:--|
+|  ```Activity``` | liste déroulante d'autocomplétion. La liste des activités est celle de toutes les activités créées par les organisations. Si l'événement est une nouvelle activité, il faut d'abord la créer dans le catalogue des activités. Voir [créer une activités]("activity.md") |
+| ```Pas de limite de place*``` | l'événement n'a pas de limitation de place. Permet également une inscription illimitée de participants |
+| ```Places disponibles``` | ce champ permet de définir le nombre de participants (hors animateurs.trices) pouvant assister à l'événement. Le nombre d'inscription ne pourra dépasser cette valeur |
+| ```Réservation interne au site``` | permet l'inscription à l'événement depuis le site |
+| ```Souhaitez vous gérer des réparations``` | offre la possibilité aux participants d'informer les objets qu'ils apportent à réparer |
+| ```En association avec``` | champ texte libre . Si l'événement se fait en partenariat avec un autre acteur, il est possible de le nommer ici. |
+| ```Réservation externe au site``` | permet d'empêcher la réservation par le site et informe de la démarche à suivre renseignée dans le champ suivant |
+| ```Lien vers un site externe``` | Si l'option précédente est cochée, l'utilisateur est redirigé vers cette URL. Sinon, le lien s'affiche simplement dans le détail d'un événement |
+| ```Description supplémentaire de l'activité``` | remplace la description de l'activité (celle renseignée lors de la création de l'activité) par le contenu de ce champ |
+| ```Lieu*``` | liste déroulante d'autocomplétion. La liste des lieux est celle de tous les lieux créés par les organisations. Choisir un lieu parmi ceux proposés. S'il est nouveau et n'apparait pas dans le menu déroulant, il est d'abord nécessaire de le créer parmi les lieux des associations. Voir [créer un lieu]("location.md") |
+| ```Date``` | la date de l'événement |
+| ```Starts at``` | horaire de début de l'événement. A partir de cet horaire, les fonctionnalités de [gestion de l'événement]("/event/manange-event.md") seront disponibles |
+| ```Ends at``` | horaire de fin. Une fois cet horaire atteint, l'événement s'archivera automatiquement et ne sera plus visible depuis la page commune des événements. Il est accessible depuis "**Organisation**" - l'association organisatrice - "**Événement**" |
+| ```Nombre d'animateurs attendus``` | indique le nombre d'animateurs.trices attendu. Ce nombre ne limite pas le nombre d'inscription |
+| ```Organizers``` | liste multiple d'autocompletion. Permet d'ajouter des animateurs pendant la création de l'événement. |
+| ```Conditions``` | liste multiple d'autocompletion. Permet de choisir une ou plusieurs conditions parmis celles référencées. Si une nouvelle condition est requise, il faut d'abord la [créer](""). Les conditions ne sont pas restrictives. [Voir de quoi il s'agit]("). |
 
-- **Réservation externe au site** : Permet d'empêcher la réservation par le site et informe de la démarche à suivre renseignée dans le champ suivant
+!!! info "Attention"
+    Le format de la date et les horaires de l'événément dépendent de la configuration languistique de votre système.
 
-- **Lien vers un site externe** : Zone pour informer et rediriger l'utilisateur vers le moyen de réservation.
+## Evénement récurrent
 
-- **Description supplémentaire de l'activité** : si la description de l'activité ne convient pas (celle renseignée lors de la création de l'activité), il est possible de la remplacer par ce qui sera écrit dans ce champ.
+Le formulaire de création d'événement comporte des champs supplémentaire qui permettent de définir la règle de réccurence. 
 
-- **Lieu** : choisir un lieu parmi ceux proposés. S'il est nouveau et n'apparait pas dans le menu déroulant, il est d'abord nécessaire de le créer parmi les lieux des associations. La démarche est détaillée dans la partie "**Organisation**" - "**Gérer**"
+| Champ | description |
+|:--|:--|
+| ```Par``` | réccurence par semaine/mois |
+| ```Date de début``` | date de début de la règle de réccurence |
+| ```Jour(s)``` | a renseigner si "par semaine" est selectionné. Options lu/mar/mer/jeu/ven/sam/dim |
+| ```La ou les semaines``` | a renseigner si "par mois" est selectionné. Options semaine 1/2/3/4/5 |
+| ```Date de fin``` | date de fin de la règle de réccurence |
+| ```Publication``` | l'événement sera publié tant de semaines/jours avant sa date. Options 1/2 jours , 1/2/3/4/5/6 semaines |
 
-- **Date** : mettre la date de l'événement
+## Publication
 
-- **Starts at** : mettre l'horaire de début de l'événement. A partir de cet horaire, la page de gestion de l'événement sera disponible en cliquant sur celui ci depuis l'onglet "**Événement**".
-
-- **Ends at** : mettre l'horaire de fin. Une fois cet horaire atteint, l'événement s'archivera automatiquement et ne sera plus visible depuis l'onglet événement. Il est accessible depuis "**Organisation**" - l'association organisatrice - "**Événement**"
-
-- **Nombre d'animateurs attendus** : Informe du nombre de bénévoles attendus. Ce nombre ne limite pas le nombre d'inscription
-
-- **Organizers** : permet d'ajouter des animateurs pendant la création de l'événement.
-
-- **Conditions** : choisir une ou plusieurs conditions parmis celles référencées. Si une nouvelle condition est requise, il faut d'abord la créer depuis "**Organisation**" - l'association organisatrice" - "**Gérer**" - "Conditions d'accès". La démarche est détaillée dans la partie "**Organisation**" - "**Gérer**"
-
-## Créer un événement récurrent
-
-Il peut être publié sur la plateforme de façon unique ou être publié de façon récurrente : par semaine, par mois etc. et publié 2 jours, 1 semaine ou 2 semaine à l'avance.
+Lorsque le formulaire est soumi, le(s) événément(s) ainsi créés sont enregistrés et une tâche de fond se charge de les publier.
 
 !!! danger "Publication des évènements"
-    Les événements ne sont pas publiés automatiquement, une tâche d'arrière plan publie les événements toutes les heures. Il faudra peut être patienter pour voir le/les événements nouvellement créés.
+    Les événements ne sont pas publiés automatiquement, la tâche de fond publie les événements toutes les heures. Il faudra donc patienter pour voir le/les événements nouvellement créés publiés.
 
-
+Les événéments qui ne sont pas encore publiés restent visibles sur [l'onglet des événements d'une organisation]("event-index.md"). 
+Il est possible d'afficher l'état de publication des événements en rendant visible la colonne **Published** dans ce tableau. 
