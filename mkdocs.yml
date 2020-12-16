@@ -23,7 +23,8 @@ nav:
       - 'account/profil.md'
   - 'activity.md'
   - 'location.md'
-  - 'Evénements': 
+  - 'Evènements': 
+      - 'event/event-index.md'
       - 'event/reservation.md'
       - 'event/create-event.md'
       - 'event/manage-event.md'
