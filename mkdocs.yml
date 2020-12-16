@@ -29,9 +29,11 @@ nav:
       - 'event/create-event.md'
       - 'event/manage-event.md'
   - 'Organisation': 
+      - 'organization/org-index.md'
+      - 'organization/create.md'
       - 'organization/groups.md'
       - 'organization/members.md'
-      - 'organization/fees.md'
+      - 'organization/gerer.md'
   - 'Inventaire /stock ': 
       - 'inventory/'
   - 'Réparation':
