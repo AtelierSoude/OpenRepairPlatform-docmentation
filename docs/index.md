@@ -13,13 +13,15 @@ Le projet se base sur 4 axes :
 
 ## Développement
 
+Cette application utilise le framework Python [Django](https://www.djangoproject.com/). 
+
 Le code est **OpenSource et est disponible sur ce dépôt GitHub** :
 
 ```https://github.com/ClemsP/OpenRepairPlatform```
 
-Il est possible d'installer sa propre instance de cette application en suivant ces [instructions](deploiement/installation.md). 
+Il est possible d'installer sa propre instance en suivant ces [instructions](deploiement/installation.md). 
 
-Le développement de cette application est réalisé par [l'Atelier Soudé](https://atelier-soude.fr). 
+Le développement est réalisé par [l'Atelier Soudé](https://atelier-soude.fr). 
 > L’Atelier Soudé est une association loi 1901, créée fin 2015 ayant pour objet la lutte contre l’obsolescence programmée, les déchets électroniques et milite en faveur de la réappropriation de nos appareils électroniques. Elle réalise des centaines d'ateliers de réparations paticipatives chaque année afin de faire prendre part le grand public à cette lutte et démocratiser la réparation. D'autres activités multiples sont également proposées : formations, accompagnement d’initiatives similaire, interventions ludiques et pédagogiques, créations artistiques à base de déchets électroniques, conférences, reconditionnement de parcs informatiques sous logiciels libres, récupération et ventes ou dons d'appareils et de pièces de seconde main.
 
 Pour participer au développement, contactez [l'Atelier Soudé](https://atelier-soude.fr)
