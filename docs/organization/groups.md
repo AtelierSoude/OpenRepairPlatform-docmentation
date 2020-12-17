@@ -7,7 +7,7 @@ La page ***Groupes*** illustre les 3 types de membres d'une organisation : Admin
 | Niveau de privilèges | Autorisations | peut promouvoir un-e utilisateur-rice : |
 |:--|:--|:--|
 | Administrateur-rice  | Toutes libertés de gestion de l'association, pour des modifications de structure de la plateforme il doit s'adresser à l'administrateur de la plateforme | Administrateur-rice, Membre actif-ve, Volontaire |
-| Membre actif-ve      | ?? | Membre actif-ve, Volontaire                      |
-| Volontaire           | Possède la même visibilité qu'un visiteur lambda, il peut en plus s'inscrire à un événement en **animateur-rice** | Volontaire                                       |
+| Membre actif-ve | ?? | Membre actif-ve, Volontaire |
+| Volontaire | Possède la même visibilité qu'un visiteur lambda, il peut en plus s'inscrire à un événement en **animateur-rice** | Volontaire |
 
-Pour l'ajout d'un membre dans un groupe, celui-ci doit déjà avoir un compte. Pour créer un compte, se référer à la section suivante : [Membres](members.md).
+Pour l'ajout d'un membre dans un groupe, celui-ci doit déjà avoir un compte sur la plateforme. Pour créer un compte, se référer à la section suivante : [Créer un compte](create-account.md).

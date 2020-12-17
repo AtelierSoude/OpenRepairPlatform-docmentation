@@ -9,11 +9,11 @@ En cliquant sur la carte d'une organisation, son profil est affiché et une bann
 Les 3 premiers onglets sont accessibles au public et contiennent des informations globales : 
 
 | Page | Evènements | Groupes |
-|:-----|:-----------|:--------|
+|:--|:--|:---|
 | Informations générales visibles par tout le monde. Leur modification est cependant réservée aux administrateurs-rices en cliquant le bouton ***Editer***.| Accès à l'historique des évènements de l'association (passés et à venir). Il est possible de créer un évènement à cet endroit : voir [Création d'un évènement](../event/create-event.md) | Accès à la liste des membres en fonction de leur statut sur la plateforme. Les membres peuvent gérer la position des utilisateurs-trices dans les groupes de statut égal ou inférieur au leur : voir [Groupes](../organization/groups.md) |
 
 Les 4 onglets suivants sont réservés aux membres actifs-ves et/ou aux administrateurs-rices de l'organisation : 
 
 | Membres | Stock | Comptabilité | Gérer |
-|:--------|:------|:-------------|:------|
+|:---|:--|:--|:--|
 | Accès à liste complète des utilisateurs-rices, et ajout de nouveaux utilisateurs-rices (uniquement par les administrateurs-rices) : voir [Membres](members.md) | Accès à liste des appareils pris en charge par l'organisation, et ajout de nouveaux appareils : voir [Stock](../inventory/stock.md) | Accès au suivi des cotisations de l'organisation | ***Uniquement pour les admins*** : Gestion des infos, des activités, des conditions d'accès, et des lieux liés à l'organisation : voir [Gestion](manage.md) |
