@@ -34,8 +34,12 @@ nav:
       - 'organization/groups.md'
       - 'organization/members.md'
       - 'organization/manage.md'
-  - 'Inventaire /stock ': 
-      - 'inventory/'
+  - 'Appareils / objets': 
+      - 'stuffs-device/how-it-works.md'
+      - 'stuffs-device/stuff-create.md'
+      - 'stuffs-device/view-edit.md'
+      - 'stuffs-device/stock.md'
+      - 'stuffs-device/repair.md'
   - 'Réparation':
       - 'repair/repair-folder.md'
       - 'repair/repair-index.md'
