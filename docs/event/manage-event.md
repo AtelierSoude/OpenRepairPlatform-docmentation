@@ -14,7 +14,7 @@ Les participant-e-s ainsi que les réparations à faire sont visibles grâce aux
 
 ## Pendant l'évènement
 
-A l’horaire de l’événement, sa page évolue et permet sa gestion administrative. Le site permet de valider la présence des participant-e-s grâce à la touche «**✓**» en haut à gauche de son nom. S’ouvre alors automatiquement le formulaire d'ajout/modification de membres décrit dans la section [Gestion des membres](../organization/members.md)
+A l’horaire de l’événement, sa page évolue et permet sa gestion administrative. Le site permet de valider la présence des participant-e-s grâce à la touche «**✓**» en haut à gauche de son nom. S’ouvre alors automatiquement le formulaire d'ajout/mise à jour de membres décrit dans la section [Gestion des membres](../organization/members.md)
 
 En effet, lors de l’inscription, seule une adresse mail est requise. C’est lors de sa 1ère présence à un événement qu’un compte est créé. Dès lors, il faut renseigner le nom et le prénom de la personne participante.
 
