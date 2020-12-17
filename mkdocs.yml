@@ -33,7 +33,7 @@ nav:
       - 'organization/create.md'
       - 'organization/groups.md'
       - 'organization/members.md'
-      - 'organization/gerer.md'
+      - 'organization/manage.md'
   - 'Inventaire /stock ': 
       - 'inventory/'
   - 'Réparation':
