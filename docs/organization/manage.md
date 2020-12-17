@@ -1,2 +1,2 @@
-# Gestion de la plateforme
+# Gestion de l'organisation
 
