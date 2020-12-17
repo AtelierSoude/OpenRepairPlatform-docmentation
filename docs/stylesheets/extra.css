@@ -34,3 +34,10 @@ img[src*='#center'] {
   display: block;
   margin: auto;
 }
+
+img[src*='#small'] {
+  max-width: 360px;
+  width: 100%;
+  display: block;
+  margin: auto;
+}
