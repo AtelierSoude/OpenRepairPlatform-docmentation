@@ -4,16 +4,16 @@
 
 ## Editer les informations de l'organisation
 
-Le bouton ***Editer*** mène à un formulaire de modification des informations de l'organisation :
+Le bouton ***Editer*** mène au **formulaire de modification des informations de l'organisation** :
 
 | Champ | Description |
 |:--|:--|
 | ```Organization name``` | Nom de l'organisation |
 | ```Activity description``` | Description de l'association et de ses activités |
-| ```Organization mail address``` | Adresse mail de l'organisme |
-| ```Organization website mail``` | Adresse du site internet de l'organisme |
-| ```Organization phone number``` | Numéro de téléphone de l'organisme |
-| ```Image``` | Le bouton ***parcourir***  permet de télécharger une image illustrant l’organisme. Champ facultatif mais conseillé pour l’identification de l'organisation |
+| ```Organization mail address``` | Adresse mail de l'organisation |
+| ```Organization website mail``` | Adresse du site internet de l'organisation |
+| ```Organization phone number``` | Numéro de téléphone de l'organisation |
+| ```Image``` | Le bouton ***parcourir***  permet de télécharger une image illustrant l’organisation. Champ facultatif mais conseillé pour l’identification de l'organisation |
 | ```Minimum contribution``` | Cotisation minimum pour adhérer à l'association         |
 | ```Advised contribution``` | Cotisation optimale conseillée pour les nouveau membres |
 | ```Explain how the contribution system works``` | Champ libre pour expliquer le fonctionnement des cotisations aux nouveaux-elles arrivant-e-s |
@@ -24,7 +24,7 @@ Le bouton ***Ajouter une activité*** permet d'accéder au formulaire de créati
 
 ## Conditions d'accès 
 
-Cette section permet d'ajouter, modifier ou supprimer des conditions d'accès aux évènements déclarés par l'organisme (par exemple pour réserver un évènements aux adhérent-e-s uniquement ...). Le bouton ***Ajouter*** conduit à un formulaire pour créer une condition, identique à celui pour modifier une condition : 
+Cette section permet d'ajouter, modifier ou supprimer des conditions d'accès aux évènements déclarés par l'organisation (par exemple pour réserver un évènements aux adhérent-e-s uniquement ...). Le bouton ***Ajouter*** conduit à un formulaire pour créer une condition, identique à celui pour modifier une condition : 
 
 | Champ | Description |
 |:--|:--|
