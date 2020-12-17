@@ -6,7 +6,7 @@ Une fois l’événement créé, il est possible de le modifier en accédant à 
 
 ![Inscription sur l'évènement](../assets/InscriptionEv.png)
 
-## Inscription des bénévoles
+## Inscription des animateurs-rices
 
 Pour l’encadrement des participant-e-s, les membres actifs-ves de l’association peuvent s’inscrire en tant qu’animateur-trice grâce à la touche «**J’anime**» **(3)**. La touche «**Je participe**» est dédiée aux participant-e-s.
 
@@ -14,10 +14,12 @@ Les participant-e-s ainsi que les réparations à faire sont visibles grâce aux
 
 ## Pendant l'évènement
 
-A l’horaire de l’événement, sa page évolue et permet sa gestion administrative. Le site permet de valider la présence des participant-e-s grâce à la touche «**✓**» en haut à gauche de son nom. S’ouvre alors automatiquement une page permettant de référencer (si nécessaire) les informations du participant-e-s et de recevoir sa cotisation.
+A l’horaire de l’événement, sa page évolue et permet sa gestion. Le site permet de valider la présence des participant-e-s grâce à la touche «**✓**» en bas à gauche de la carte utilisateur. S’ouvre alors automatiquement le **formulaire d'ajout/mise à jour de membres** décrit dans la section [Gestion des membres](../organization/members.md#ajout-mise-a-jour-de-membre) pour assurer l'exactitude des informations (si la personne est membre), ou compléter si la personne ne s'est inscrit qu'avec son adresse mail (pour devenir membre).
 
-En effet, lors de l’inscription, seule une adresse mail est requise. C’est lors de sa 1ère présence à un événement qu’un compte est créé. Dès lors, il faut renseigner le nom et le prénom de la personne participante.
+En effet, lors de la réservation, il est possible de ne donner qu'une adresse mail. C’est lors de sa 1ère présence à un événement qu’un compte est créé. Dès lors, il faut renseigner le nom et le prénom de la personne participante.
 
-Finalement, à la fin de l’événement, il est nécessaire de le clôturer grâce à la touche éponyme **(5)** afin d’enregistrer les informations (de créer les abonnements et créer les cotisations associées). La clôture de l'événement va également supprimer de la base de données les comptes mails rattachés aux personnes n'ayant pas participé.
+## Fin de l'évènement
 
-L’événement s’archive automatiquement une fois l’horaire de fin atteint.
+A la fin de l’événement, il est nécessaire de le clôturer grâce à la touche **(5)** afin d’enregistrer les informations saisies (de créer les affiliations et enregistrer les cotisations associées). La clôture de l'événement va également supprimer de la base de données les comptes rattachés aux personnes n'ayant pas participé, mais uniquement si elles ne possèdent pas de compte membre (ie. si elles se sont enregistré avec uniquement une adresse mail). Il est possible de clôturer plusieurs fois un évènement en cas d'oubli.
+
+Une fois l'horaire de fin atteint, l'évènement n'est plus visible dans la liste publique des évènements mais reste consultable dans l'onglet [Evènements](../organization/org-index.md) de la page de l'organisation.
