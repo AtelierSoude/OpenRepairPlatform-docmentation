@@ -36,9 +36,8 @@ nav:
       - 'organization/manage.md'
   - 'Appareils / objets': 
       - 'stuffs-device/how-it-works.md'
-      - 'stuffs-device/stuff-create.md'
+      - 'stuffs-device/inventory.md'
       - 'stuffs-device/view-edit.md'
-      - 'stuffs-device/stock.md'
       - 'stuffs-device/repair.md'
   - 'Réparation':
       - 'repair/repair-folder.md'

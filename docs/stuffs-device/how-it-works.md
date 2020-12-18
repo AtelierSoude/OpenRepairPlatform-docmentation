@@ -8,38 +8,78 @@ L'application propose l'inventaire et le suivi de réparation d'objet. Cette fon
 - [Dossiers de réparations](#dossier-de-reparation)
 - [Interventions](#intervention)
 
+Les objets sont stockés dans des [inventaires](inventory.md#inventaires). 
 Un objet est un exemplaire d'un appareil Cet appareil possède une catégorie. 
 Cet objet peut posséder des dossiers de réparations et chaque dossier peut contenir plusieurs interventions. 
 
 **Exemple**
 >l'utilisateur possède un objet dans son inventaire. Cet objet est exemplaire d'un appareil dénommé cafeterie Krups MKRE43. Cet appareil est issu de la catégorie cafetière à capsule. Cette catégorie descend de la catégorie cafetière et petit électroménager. Cet objet possède un dossier ouvert le 14/01/2024. Ce dossier contient une intervention réalisée le 14/01/2024. 
 
-![schema-inventory](/assets/schema-inventory.jpg)
+![schema-inventory](/assets/schema-inventory.jpg#small)
 
 ## Catégorie
 
-
+Les catégories d'appareils ont une dénonation (ex. Ordinatateur portable). Chaque catégories peut être une catégorie enfant d'une autre. 
+> Informatique > ordinateur > ordinateur portable 
 
 ## Appareil
 
-Un appareil (Device) possède une catégorie (category). Cette catégorie peut être l'enfant d'une autre. (ex : informatique > ordinateur > ordinateur portable). La marque (brand) est également un modèle de données à part entière (ex : Apple). Le champ description est libre et peut inclure des informations complémentaire sur ce type d'appareil (ex : renseignements techniques etc.). Le champ model est un champ texte libre qui permet de renseigner la désignation de l'appareil en question, le modèle ou sa référence (ex : Macbook A1286).
+Un appareil, ou autrement dit *un produit*, est une entité à part entière. C'est une entité non physique.
 
+| Champ | Description |
+|:--|:--|
+| ```Categorie``` | Catégorie de l'appareil |
+| ```Marque``` | Marque de l'appareil - liste prédéfinie |
+| ```Modèle``` | Modèle ou désignation de l'appareil - champ libre |
+| ```Description``` | Champ HTML. ex : descriptions techniques |
+| ```Image``` | Une photo de l'appareil |
+| ```liens``` | Liste de liens relatifs. ex : schéma techniques, tutoriels |
 
 ## Objet
 
-Un objet est un exemplaire d'un appareil (Device). L'objet est possédé par un utilisateur (member_owner) ou une organisation (organization_owner). Un champ information permet d'écrire librement des détails sur cet objet en particulier. Il peut être faire parti d'un autre objet (subpart). Il peut être localisé dans un lieu identifié (place). Cela est notamment utile si l'objet est disposible dans les locaux de l'organisation et si un membre a déposé son objet entre deux ateliers de réparation par exemple.  Un objet possède un état (state) qui peut être : fonctionnel, réparé, fonctionement partiel, en panne, démantelé, évaporé. 
- Le champ is_visible permet de déclarer l'objet comme visible du publique dans la page générale « Stock ». 
+Un objet est un exemplaire d'un appareil. L'objet est une entité phyisique possèdée et invetoriée. L'objet est possédé par un utilisateur ou une organisation. 
+
+| Champ | Description |
+|:--|:--|
+| ```Appareil``` | L'appareil dont il est l'exemplaire |
+| ```Propriétaire``` | Un utilisateur ou une organisation |
+| ```Etat``` | Etat de l'appareil (fonctionnel, incomplet/partiel, réparé, en panne, désassemblé, évaporé) |
+| ```Information``` | Champ HTML. Différentes informations à son propos |
+| ```Localisation``` | Si l'objet est localisé dans un lieu référencé sur l'application |
+| ```Subpart``` | Si l'objet est inclu dans un autre objet |
+| ```Visibilité``` | Visible ou non dans [l'inventaire global](inventory.md#inventaire-global) |
 
 
-# Dossier de réparation 
+## Dossier de réparation 
 
-Un objet possède un ou des dossiers de réparations. Un dossier (RepairFolder) est donc lié à un objet (Stuff). Le dossier est en cours ou clos/terminé (ongoing). Il possède une date de création (open_date), par défaut la date du jour. 
-Ces dossiers peuvent inclure plusieurs interventions. Il peut exister plusieurs interventions car une réparation peut s'étendre sur plusieurs séances et il est ainsi possible de suivre les actions effectuées. 
+Un objet possède un ou des dossiers de réparations. Un dossier est donc lié à un objet.
 
-# Interventions
+| Champ | Description |
+|:--|:--|
+| ```Objet``` | L'objet lié |
+| ```En cours``` | Dossier en cours ou terminé |
+| ```Date``` | Date de l'ouverture du dossier |
 
-Une intervention est reliée à un dossier de réparation (folder). Elle est relative à une date d'execution ou à un événement. Elle contient une série d'actions (observation, reasoning, action, status).  
-L'observation désigne l'état innitial de l'objet. Ce que l'utilisateur a observé. Par exemple « ne chauffe plus » . Le raisonnement désigne le cheminement  de la reflexion, le diagnostic. 
-L'action désigne ce qui a été fait, essayé. Par exemple : « changement de la resistance ». 
-Le status désigne l'état de l'objet suite à cette action. Par exemple « chauffe », ou « ne chauffe toujours pas » . 
-Observation, Reasoning, action et status sont des  à part entière.
+Ces dossiers peuvent inclure plusieurs interventions. 
+Il peut exister plusieurs interventions car une réparation peut s'étendre sur plusieurs séances et peut nécessiter plusieurs actions. 
+
+## Intervention
+
+Une intervention est reliée à un dossier de réparation. 
+
+Elle est relative à une date d'execution ou à un événement. Elle contient une série d'actions (observation, raisonnement, action, status).  
+
+| Champ | Description |
+|:--|:--|
+| ```Observation``` | L'observation désigne l'état innitial de l'objet. Ce que l'utilisateur a observé. Ex: « ne chauffe plus » .  |
+| ```Raisonnement``` | Le raisonnement désigne le cheminement  de la reflexion, le diagnostic. |
+| ```Action``` | L'action désigne ce qui a été fait, essayé. Ex: « changement de la resistance ».  |
+| ```Status``` | Le status désigne l'état de l'objet suite à cette action. Ex: « chauffe », ou « ne chauffe toujours pas » . |
+
+Ces actions sont des entités à part entières dans la base de données et sont notamment disponibles via un champ d'autocomplétion. Il est donc nécessaire de choisir parmi des termes déjà utilisés. Il également est possible de créer ces termes. La formulation de ces actions est restreinte à quelques mots qui évoquent le plus clairement possible l'action. 
+
+## Normalisation des données 
+
+La séparation en plusieurs entités de ce qu'*est un objet* permet de minimalement normer les données créées. En effet, une fois une entité créée, elle est réutilisable. Les doublons sont évités, les formulations peut évocatrices limités. 
+
+Ainsi, il sera possible de catégoriser, trier et rechercher des réparations par type d'appareil ou par actions. 
