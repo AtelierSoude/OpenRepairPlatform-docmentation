@@ -39,6 +39,3 @@ nav:
       - 'stuffs-device/inventory.md'
       - 'stuffs-device/view-edit.md'
       - 'stuffs-device/repair.md'
-  - 'Réparation':
-      - 'repair/repair-folder.md'
-      - 'repair/repair-index.md'
