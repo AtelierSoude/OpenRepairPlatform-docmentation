@@ -1,4 +1,4 @@
-# Voir / modifier 
+# Voir / modifier un objet
 
 
 ## Détails d'un objet
@@ -25,7 +25,7 @@ Chaque champ utilise des formulaires séparés qui s'affichent en cliquant sur l
 
 **Transférer la propriété**
 
-Un champ d'autocomplétion permet de choisir un utilisateur ou une organisation. Il est également possible de désigner un utilisateur non connnu comme nouveau propriétaire 
+Un champ d'autocomplétion permet de choisir soit un utilisateur, soit une organisation. Il est également possible de désigner un utilisateur non connnu comme nouveau propriétaire. 
 
 !!! danger 
     Si vous transférez la propriété à une personne qui n'est pas membre de vos organisations, ou à un utilisateur inconnu de l'application, vous n'aurez plus aucuns droits de modifications sur cet objet. 
