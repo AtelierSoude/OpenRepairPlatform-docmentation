@@ -4,7 +4,7 @@
 
 Les champs et les entités utilisés par ce forumulaire sont décrits [ici](how-it-works.md). 
 
-![stuff-create](../assets/stuff-create.png#small)
+![stuff-create](../assets/stuff/stuff-create.png#small)
 
 
 ### Formulaire 

@@ -15,7 +15,7 @@ Cet objet peut posséder des dossiers de réparations et chaque dossier peut con
 **Exemple**
 >l'utilisateur possède un objet dans son inventaire. Cet objet est exemplaire d'un appareil dénommé cafeterie Krups MKRE43. Cet appareil est issu de la catégorie cafetière à capsule. Cette catégorie descend de la catégorie cafetière et petit électroménager. Cet objet possède un dossier ouvert le 14/01/2024. Ce dossier contient une intervention réalisée le 14/01/2024. 
 
-![schema-inventory](/assets/schema-inventory.jpg#small)
+![schema-inventory](/assets/stuff/schema-inventory.jpg#small)
 
 ## Catégorie
 
