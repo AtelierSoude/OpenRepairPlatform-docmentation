@@ -1,7 +1,7 @@
 # Voir / modifier un objet
 
 
-## Détails d'un objet
+## Détail d'un objet
 ```
 inventory/<stuff_id>
 ```
