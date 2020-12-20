@@ -41,18 +41,9 @@ Cet onglet permet de d'ajouter, modifier ou supprimer les lieux rattachés à l'
 
 !!! info "Un lieu est une entité semblable à une activité : toutes les organisations peuvent utiliser un lieu pour un évènement, mais seul-e-s les administrateurs-rices de l'organisation de rattachement peuvent modifier ou supprimer ce lieu"
 
-La touche ***Ajouter un lieu*** (ou ***Modifier*** sur un lieu existant) permet d'accèder au formulaire de création/modification d'un lieu qui présente plusieurs champs :
+La touche ***Ajouter un lieu*** (ou ***Modifier*** sur un lieu existant) permet d'accèder au [formulaire de création/modification d'un lieu](../location.md#formulaire-de-creationmodification-dun-lieu).
 
-| Champ | Description |
-|:--|:--|
-| ```Name``` | Nom du lieu |
-| ```Place description``` | Description du lieu |
-| ```Category``` | Type de lieu (par ex : centre social, squat, médiathèque ...) |
-| ```Street Adress``` | Adresse du lieu |
-| ```Image``` | Le bouton ***parcourir***  permet de télécharger une image illustrant le lieu. Champ facultatif mais conseillé pour l’identification du lieu |
-| ```Lieu Principal ``` | Permet de déclarer le lieu comme _Lieu Principal_ de l'organisation, ce qui le fera apparaître sur la page de présentation de l'organisation. |
 
-La suppression d'un lieu se fait soit en cliquant directement sur le bouton ***Supprimer***, soit sur la page d'un lieu (accessible depuis un évènement ou depuis la présentation d'une organisation) avec le bouton ***Supprimer*** en haut à droite (affiché seulement pour les administrateurs-rices).
 
 ## Suppression de l'organisation
 
