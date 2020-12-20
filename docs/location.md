@@ -2,11 +2,11 @@
 
 ## Description générale
 
-La plateforme gère les lieux comme des entités similaires à celles liées aux activités. Cela signifie qu'une organisation peut utiliser n'importe quel lieux, mais seul-e-s les administrateurs-rices de l'organisation de rattachement peuvent le modifier ou le supprimer.
+L'application gère les lieux comme des entités similaires aux activités. Cela signifie qu'une organisation peut utiliser n'importe quel lieux, mais seul-e-s les administrateurs-rices de l'organisation de rattachement peuvent le modifier ou le supprimer.
 
 ## Page de présentation
 
-Les lieux sont rattachés à une page de présentation comme celle-ci :
+Le détail d'un lieu s'affiche ainsi :
 
 ![Page lieu](assets/location/location-page.png)
 
@@ -35,9 +35,3 @@ La création (par la [page ***Gérer*** d'une organisation](organization/manage.
 ## Suppression d'un lieu
 
 La suppression d'un lieu se fait soit en cliquant directement sur le bouton ***Supprimer***, situé soit sur la page de présentaion d'un lieu, soit dans la section lieux de la [page ***Gérer*** d'une organisation](organization/manage.md#lieux).
-
-déplacer ici ce qui concerne les lieux ( ce qui est déjà dans orga/gérer)
-
-+ rajouter mention de la map 
-
-faire page comme activité
