@@ -1,13 +1,22 @@
 # Groupes 
 
-La page ***Groupes*** offre une vue d'ensemble des membres des associations en fonction de leur implication dans celles-ci. Cliquer sur une personne permet d'accéder à son profil et ainsi d'avoir accès à des informations la concernant.
+La page ***Groupes*** permet d'attribuer des rôles aux utilisateur-trices. 
+
+![groups](../assets/organization-groups.png)
 
 La page ***Groupes*** illustre les 3 types de membres d'une organisation : Administrateur-rice, Membre actif-ve, Volontaire (classé par privilèges décroissants sur l'application). Chaque membre a la possibilité d'agir sur les groupes de personnes ayant un niveau de privilège inférieur ou égal au sien :
 
-| Niveau de privilèges | Autorisations | peut promouvoir un-e utilisateur-rice : |
-|:--|:--|:--|
-| Administrateur-rice  | Toutes libertés de gestion de l'association, pour des modifications de structure de la plateforme il doit s'adresser à l'administrateur de la plateforme | Administrateur-rice, Membre actif-ve, Volontaire |
-| Membre actif-ve | ?? | Membre actif-ve, Volontaire |
-| Volontaire | Possède la même visibilité qu'un visiteur lambda, il peut en plus s'inscrire à un événement en **animateur-rice** | Volontaire |
+- Un-e administateur-trice peut créer des administrateur-trices, actif-ve-s et des volontaires, ainsi que supprimer leurs droits
+- Un-e actif-ve peut ajouter des actif-ves et volontaires 
+- Un-e volontaire peut ajouter des volontaires 
 
-Pour l'ajout d'un membre dans un groupe, celui-ci doit déjà avoir un compte sur la plateforme. Pour créer un compte, se référer à la section suivante : [Créer un compte](../account/create-account.md).
+Pour l'ajout d'un-e utilisateur-trice dans un groupe, celui-ci ou celle-ci doit obligatoirement [posséder un compte](../account/create-account.md) sur l'application. Il est ensuite possible de l'ajouter gràce à un champ d'autocomplétion.
+
+Les droits suivant les groupes sont différents. Il en convient que le niveaux supérieur d'autorisation peut réaliser les actions du niveau inférieur. Ces droits ne sont donc pas ré-inscrits dans le tableau ci-dessous:
+
+| Niveau de privilèges | Autorisations |
+|:--|:--|
+| Administrateur-rice  | Créer, modifier, supprimer : organisation, lieux, activités, conditions, événements |
+| Membre actif-ve | Créer et modifier un événement, [Gérer un événement](../event.manage-event.md). Créer et modifier des membres  |
+| Volontaire | S'inscrire en **animateur-rice** d'un événement. Créer et modifier des objets. | 
+
