@@ -66,7 +66,7 @@ Ces catégories sont utilisées pour créer des appareils.
 Pour comprendre de quoi il s'agit, voir la page qui concerne les [catégories d'appareils](/inventory/how-ti-works.md#categorie)
 
 Vous pouvez créer vos propres catégories. Néanmois un jeu de données initial est disponible.
-Ce jeu de données est présent à la racine du dossier *Inventory* du dépôt. 
+Ce jeu de données est présent à la racine du dossier *Inventory* du dépôt. Voir [Importer / exporter des données](#importer-/-exporter-des-donnees)
 
 Il n'y a plus rien d'autre à faire ici, il n'est plus nécessaire d'utiliser l'administration du site. 
 
@@ -78,18 +78,37 @@ Lorsque vous crééz cette organisation, vous devenez automatiquement administra
 
 **Modifiez votre profil**
 
-Ultime étape. Modifiez votre profil en suivant ce [guide](../account/profil.md) avec vos rééele informations.
+Ultime étape. Modifiez votre profil en suivant ce [guide](../account/profil.md) avec vos rééeles informations.
 
 
 ## Personnaliser 
 
 **Nom du site**
-Blabla
+Pour modifier le nom de l'application, modifiez la variable du processeur de contexte. Modifier "Réparons" par le nom de votre application.
+
+```
+openrepairplatform/context-processors.py 
+```
+
+```
+def site_title(request):
+   return {'site_title':'Réparons'} 
+```
 
 **Logo**
 
-Pour mettre le logo adéquat à votre site, il suffit de remplacer le fichier "" par le votre. 
-Ensuite, rendez-vous sur le site "" pour créer vos favicon. Remplacer tous les fichiers inclus dans "" par vos fichiers de favicons. 
+Pour mettre le logo adéquat à votre site, il suffit de remplacer les fichiers correspondants avec les vôtres. 
+
+Les logos sont contenus dans ce dossier 
+```
+openrepairplatform/static/img 
+```
+
+Remplacez le fichier *logo.png* par le vôtre (il s'agit du logo visible dans le menu).
+Remplacez le fichier *logo-simple.png* par le vôtre (il s'agit du logo visible sur la page de connexion).
+
+Ensuite, rendez-vous sur le site ```https://www.favicon-generator.org/``` pour créer vos favicon. 
+Remplacer tous les fichiers inclus dans le dossier ```openrepairplatform/static/img/favicon``` par vos fichiers de favicons. 
 
 **schéma de couleurs**
 
@@ -106,9 +125,9 @@ Pour personnaliser le schéma des couleurs de votre site, modifier les variables
 
 Importer des données peut être utile si vous posséder, par exemple, déjà une base de donnée de membres de votre ancien site/organisation.
 
-Lorsque vous cliquez sur chaque entité de la base de données, les options *importer* ou *exporter* sont disponibles dans l'intercae. 
+Lorsque vous cliquez sur certaines entités de la base de données, les options *importer* ou *exporter* sont disponibles dans l'interface, en haut à droite.
 
 !!! danger "Importer des données demande de solides connaissances."
-    Pour importer des données, vous devez créer un fichier .csv respectant strictement la structure des données de l'application. 
+    Pour importer des données, vous devez créer un fichier .json ou .csv respectant strictement la structure des données de l'application. 
     Pour connaître la structure des données que vous souhaitez importez, il vous faut parcourir les modèles de données du code de l'application. 
 
