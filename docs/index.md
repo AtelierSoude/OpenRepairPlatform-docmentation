@@ -17,7 +17,9 @@ Cette application utilise le framework Python [Django](https://www.djangoproject
 
 Le code est **OpenSource et est disponible sur ce dépôt GitHub** :
 
-```https://github.com/ClemsP/OpenRepairPlatform```
+```
+https://github.com/ClemsP/OpenRepairPlatform
+```
 
 Il est possible d'installer sa propre instance en suivant ces [instructions](deploiement/installation.md). 
 
@@ -35,7 +37,9 @@ Le financement de cette application est, ou a été, soutenu par l'[ADEME](https
 
 Cette application est utilisée par [l'Atelier Soudé](https://atelier-soude.fr) sous le nom ***Réparons*** et disponible à cette adresse : 
 
-``` https://dev.atelier-soude.fr ```
+```
+ https://dev.atelier-soude.fr 
+ ```
 
 L'association propose cet outils aux structures de l'agglomération du Grand Lyon, où elle officie. 
 Pour intégrer cette plateforme, contactez [l'Atelier Soudé](https://atelier-soude.fr).

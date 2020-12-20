@@ -52,7 +52,7 @@ admin/event/activitycategory/
 
 Indiquez des catégories générales. 
 
-Pour comprendre de quoi il s'agit, voir la page qui concerne les [activités](activity.md)
+Pour comprendre de quoi il s'agit, voir la page qui concerne les [activités](../activity.md)
 
 **Renseignez des catégories d'appareils** 
 
@@ -63,7 +63,7 @@ admin/inventory/category/
 
 Ces catégories sont utilisées pour créer des appareils. 
 
-Pour comprendre de quoi il s'agit, voir la page qui concerne les [catégories d'appareils](/inventory/device.md)
+Pour comprendre de quoi il s'agit, voir la page qui concerne les [catégories d'appareils](/inventory/how-ti-works.md#categorie)
 
 Vous pouvez créer vos propres catégories. Néanmois un jeu de données initial est disponible.
 Ce jeu de données est présent à la racine du dossier *Inventory* du dépôt. 
@@ -78,7 +78,7 @@ Lorsque vous crééz cette organisation, vous devenez automatiquement administra
 
 **Modifiez votre profil**
 
-Ultime étape. Modifiez votre profil en suivant ce [guide](account/profile.md) avec vos rééele informations.
+Ultime étape. Modifiez votre profil en suivant ce [guide](../account/profil.md) avec vos rééele informations.
 
 
 ## Personnaliser 

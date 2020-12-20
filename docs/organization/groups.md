@@ -10,4 +10,4 @@ La page ***Groupes*** illustre les 3 types de membres d'une organisation : Admin
 | Membre actif-ve | ?? | Membre actif-ve, Volontaire |
 | Volontaire | Possède la même visibilité qu'un visiteur lambda, il peut en plus s'inscrire à un événement en **animateur-rice** | Volontaire |
 
-Pour l'ajout d'un membre dans un groupe, celui-ci doit déjà avoir un compte sur la plateforme. Pour créer un compte, se référer à la section suivante : [Créer un compte](create-account.md).
+Pour l'ajout d'un membre dans un groupe, celui-ci doit déjà avoir un compte sur la plateforme. Pour créer un compte, se référer à la section suivante : [Créer un compte](../account/create-account.md).
