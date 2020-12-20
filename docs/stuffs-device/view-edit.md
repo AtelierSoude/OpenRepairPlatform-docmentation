@@ -21,9 +21,7 @@ Chaque champ utilise des formulaires séparés qui s'affichent en cliquant sur l
 
 !!! info "qui peut éditer un objet ?"
     L'utilisateur propriétaire, les volontaires, actifs et administrateurs des organisations dont le propriétaire est membre. Si le propriétaire est une organisation, ces sont égalements ces membres-ci qui peuvent l'éditer. 
-
-**Capture d'écran de la pop-in à chaque fois et détailler le fonctionnement du formulaire simpleemnt.**
-
+    
 **Modifier le type d'appareil et les informations**
 
 En cliquant sur le bouton d'édition vert qui se situe proche du nom de l'objet, un formulaire proche du [formulaire de création d'objet](inventory.md#formulaire) apparaît. Il est possible d'y modifier les informations de l'objet ainsi que son type d'appareil.
@@ -50,7 +48,7 @@ Une case à cocher permet de rendre visible ou non cet objet. Si la case est coc
 
 **Modifier la localisation**
 
-Un champ d'autocomplétion propose les différentes [lieux](place.md) de l'application. Si le proporiétaire est un utilisateur, par défaut l'objet n'est pas localisé. 
+Un champ d'autocomplétion propose les différentes [lieux](../location.md) de l'application. Si le proporiétaire est un utilisateur, par défaut l'objet n'est pas localisé. 
 
 Il est possible de ne pas localiser l'objet en supprimant la valeur en cliquant sur la croix rouge. 
 

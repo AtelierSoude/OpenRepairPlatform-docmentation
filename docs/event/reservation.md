@@ -27,12 +27,12 @@ Une fois inscrit-e sur un évènement, la confirmation d'inscription est émise 
 
 ## Indiquer l'objet que l'on souhaite réparer 
 
-Sur la page de confirmation d'inscription, il est possible de renseigner dès à présent le ou les objets à réparer, pour rajouter un objet à l'inventaire voir comment [créer un objet](stuffs-device/inventory.md) si l'évènement le permet.
+Sur la page de confirmation d'inscription, il est possible de renseigner dès à présent le ou les objets à réparer, pour rajouter un objet à l'inventaire voir comment [créer un objet](../stuffs-device/inventory.md) si l'évènement le permet.
 
 ## Annuler un rendez-vous 
 
 L'annulation d'un rendez-vous peut se faire par différents canaux. Le mail de confirmation émis au moment de la réservation contient un lien d'annulation. 
 
-Il est également possible d'annuler un rendez-vous via la [page du profil]("account/profil.md) de l'utilisateur connecté. 
+Il est également possible d'annuler un rendez-vous via la [page du profil](../account/profil.md) de l'utilisateur connecté. 
 
 Suite à l'annulation, un mail de confirmation d'annulation est envoyé. 

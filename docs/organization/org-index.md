@@ -16,4 +16,4 @@ Les 4 onglets suivants sont réservés aux membres actifs-ves et/ou aux administ
 
 | Membres | Stock | Comptabilité | Gérer |
 |:---|:--|:--|:--|
-| Accès à liste complète des membres, et ajout de nouveaux-elles membres (uniquement par les administrateurs-rices et membres actifs-ves) : voir [Membres](members.md) | Accès à liste des appareils pris en charge par l'organisation, et ajout de nouveaux appareils : voir [Stock](../inventory/stock.md) | Accès au suivi des cotisations de l'organisation | ***Uniquement pour les admins*** : Gestion des infos, des activités, des conditions d'accès, et des lieux liés à l'organisation : voir [Gestion](manage.md) |
+| Accès à liste complète des membres, et ajout de nouveaux-elles membres (uniquement par les administrateurs-rices et membres actifs-ves) : voir [Membres](members.md) | Accès à liste des objets pris en charge par l'organisation, et ajout de nouveaux objets : voir [Stock](../stuffs-device/inventory.md) | Accès au suivi des cotisations de l'organisation | ***Uniquement pour les admins*** : Gestion des infos, des activités, des conditions d'accès, et des lieux liés à l'organisation : voir [Gestion](manage.md) |

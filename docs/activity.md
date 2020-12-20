@@ -9,14 +9,14 @@ Ces dernières sont classées par catégories (Ateliers de réparations, atelier
 
 ![Page descriptive de l'activité](../assets/activity/4.png)
 
-Sur cette page on retrouve, l’image illustrant l’activité ; sa thématique, l’organisateur, sa description et ses prochains évènements dans la rubrique ***prochaines dates***. Pour participer à l’un des évènements, il suffit de cliquer sur l’encart de celui-ci et suivre les instructions de la rubrique [***Événements***](../event/reservation.md). 
+Sur cette page on retrouve, l’image illustrant l’activité ; sa thématique, l’organisateur, sa description et ses prochains évènements dans la rubrique ***prochaines dates***. Pour participer à l’un des évènements, il suffit de cliquer sur l’encart de celui-ci et suivre les instructions de la rubrique [***Événements***](event/reservation.md). 
 
 
 ## Créer une activité
 
 
 !!! info "Qui peut créer une activité ?"
-    Seul les administrateurs d'une organisation peuvent le faire. Voir [gestion des groupes]("organization/groups.md")
+    Seul les administrateurs d'une organisation peuvent le faire. Voir [gestion des groupes](organization/groups.md)
 
 Il est indispensable de référencer une activité avant de créer un événement. 
 Une activité est reliée à l'organisation qui la créée mais elle peut être utisée par d'autres.
