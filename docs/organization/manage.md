@@ -37,7 +37,7 @@ Cette section permet d'ajouter, modifier ou supprimer des conditions d'accès au
 
 Cet onglet permet de d'ajouter, modifier ou supprimer les lieux rattachés à l'organisation en question. Les lieux sont utilisé pour localiser les évènements. Ils sont regroupés ici sous formes de cartes récapitulatives : 
 
-![Carte lieu](../assets/location-card-manage.png#small)
+![Carte lieu](../assets/location/location-card-manage.png#small)
 
 !!! info "Un lieu est une entité semblable à une activité : toutes les organisations peuvent utiliser un lieu pour un évènement, mais seul-e-s les administrateurs-rices de l'organisation de rattachement peuvent modifier ou supprimer ce lieu"
 
