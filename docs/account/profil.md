@@ -23,7 +23,7 @@ Sur la vue détaillée d'un profil, un menu de navigation est visible.
 
 | Informations | Rendez-vous | Adhésions | Inventaire |
 |:--|:--|:--|:--|
-| Informations générales | Gestion des rendez-vous. Il est ici possible de voir et d'annuler ses rendez-vous en cliquant sur l'icône *poubelle rouge* qui suit le rendez-vous en question | Voir l'état des adhésions de l'utilisateur-trice. Cette information n'est visible que par l'utilsateur-trice et les membres actifs et administrateurs de l'organisation | [Inventaire personnel](stuffs-device/inventory.md#inventaire-utilisateur) de l'utilisateur-trice |
+| Informations générales | Gestion des rendez-vous. Il est ici possible de voir et d'annuler ses rendez-vous en cliquant sur l'icône *poubelle rouge* qui suit le rendez-vous en question | Voir l'état des adhésions de l'utilisateur-trice. Cette information n'est visible que par l'utilsateur-trice et les membres actifs et administrateurs de l'organisation | [Inventaire personnel](../stuffs-device/inventory.md#inventaire-utilisateur) de l'utilisateur-trice |
 
 # Visibilité des profils 
 

@@ -17,6 +17,6 @@ Les droits suivant les groupes sont différents. Il en convient que le niveaux s
 | Niveau de privilèges | Autorisations |
 |:--|:--|
 | Administrateur-rice  | Créer, modifier, supprimer : organisation, lieux, activités, conditions, événements |
-| Membre actif-ve | Créer et modifier un événement, [Gérer un événement](../event.manage-event.md). Créer et modifier des membres  |
+| Membre actif-ve | Créer et modifier un événement, [Gérer un événement](../event/manage-event.md). Créer et modifier des membres  |
 | Volontaire | S'inscrire en **animateur-rice** d'un événement. Créer et modifier des objets. | 
 

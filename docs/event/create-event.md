@@ -13,12 +13,12 @@
 Page «**Organisation**» → Choisir l'organisation → «**Evénement**» → «**Ajouter un événement**»
 
 
-![Création d'un évènement](../assets/CreaEv.png)
+![Création d'un évènement](../assets/event/CreaEv.png)
 
 
 Il est possible d’ajouter des **événements ponctuels ou récurrents**. Il existe 2 formulaires différents, accessibles en bas de cette page.
 
-![Création d'un évènement](../assets/CreaEvBtn.png#center)
+![Création d'un évènement](../assets/event/CreaEvBtn.png#center)
 
 
 Ces deux formulaire utilisent ce même [formulaire](#formulaire) décrit ci dessous. Le formulaire de création [d'événéments réccurents](#evenement-recurrent) inclu des champs supplémentaires.

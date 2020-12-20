@@ -5,7 +5,7 @@ Cette page événement donne accès à tous les événements à venir qui sont p
 
 Une 1ère section permet de rechercher spécifiquement un type d’événement ainsi qu’un lieu.
 
-![Bandeau évènement](../assets/Evenement.png)
+![Bandeau évènement](../assets/event/Evenement.png)
 
 Ensuite viennent les événements avec :
 
@@ -18,7 +18,7 @@ Ensuite viennent les événements avec :
 7. L’association organisatrice
 8. Le lien d’inscription
 
-![Détail de l'évènement](../assets/DetailEvenement.png)
+![Détail de l'évènement](../assets/event/DetailEvenement.png)
 
 ## Détail d'un événement 
 

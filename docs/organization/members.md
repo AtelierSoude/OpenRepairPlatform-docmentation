@@ -10,13 +10,13 @@ Sur la page **Membres**, il est possible d'accéder aux informations des adhére
 
 ## Ajout, mise à jour de membre
 
-!!! info "Cette fonctionnalité n'est accessible qu'aux membres actifs-ves et administrateurs-rices de l'organisation"
+!!! info "Cette fonctionnalité n'est accessible qu'aux membres actifs-ves et administrateurs-rices de l'organisation. [gestion des groupes]("organization/groups.md")"
 
 L'ajout de nouveaux-elles membres se fait avec la touche ***+*** verte en bas à droite, la mise à jour en cliquant sur ***Mettre à jour***  au bout de la ligne. Il conduit au **formulaire d'ajout/mise à jour de membre** suivant : 
 
 ![Formulaire de création de membre](../assets/member-creation-form.png#small)
 
-Il est nécessaire de renseigner au moins, `adresse électronique`, `nom` et `prénom` pour ajouter un-e membre. Les autres champs sont falcultatifs pour la création d'un profil. L'ajout d'un-e membre entraîne en réalité la création d'un compte utilisateur et l'affectation de celui-ci à l'organisation. 
+Il est nécessaire de renseigner au moins, `adresse électronique`, `nom` et `prénom` pour ajouter un-e membre. Les autres champs sont falcultatifs pour la création d'un profil. L'ajout d'un-e membre entraîne en réalité la création d'un compte utilisateur et l'affiliation de celui-ci à l'organisation. 
 
 !!! warning "Avant d'enregistrer un-e membre, il est conseillé de rechercher si il-elle n'est pas déjà présent-e grâce au champ d'autocomplétion prévu à cet effet."
     Entrer une adresse mail existante aura pour effet d'écraser le compte utilisateur correspondant avec les nouvelles informations fournies

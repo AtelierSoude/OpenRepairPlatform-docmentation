@@ -4,17 +4,17 @@
 
 Une fois l’événement créé, il est possible de le modifier en accédant à cet événement depuis l’onglet "**Evénement**". Ensuite le crayon **(1)** permet de le modifier tandis que la poubelle **(2)** permet de le supprimer.
 
-![Inscription sur l'évènement](../assets/InscriptionEv.png)
+![Inscription sur l'évènement](../assets/event/InscriptionEv.png)
 
 ## Inscription des animateurs-rices
 
-Pour l’encadrement des participant-e-s, les membres actifs-ves de l’association peuvent s’inscrire en tant qu’animateur-trice grâce à la touche «**J’anime**» **(3)**. La touche «**Je participe**» est dédiée aux participant-e-s.
+Pour l’encadrement des participant-e-s, les membres actifs-ves de l’association peuvent s’inscrire en tant qu’animateur-trice grâce à la touche ***J’anime*** **(3)**. La touche ***Je participe*** est dédiée aux participant-e-s.
 
 Les participant-e-s ainsi que les réparations à faire sont visibles grâce aux onglets du même nom **(4)**.
 
 ## Pendant l'évènement
 
-A l’horaire de l’événement, sa page évolue et permet sa gestion. Le site permet de valider la présence des participant-e-s grâce à la touche «**✓**» en bas à gauche de la carte utilisateur. S’ouvre alors automatiquement le **formulaire d'ajout/mise à jour de membres** décrit dans la section [Gestion des membres](../organization/members.md#ajout-mise-a-jour-de-membre) pour assurer l'exactitude des informations (si la personne est membre), ou compléter si la personne ne s'est inscrit qu'avec son adresse mail (pour devenir membre).
+A l’horaire de l’événement, sa page évolue et permet sa gestion. Le site permet de valider la présence des participant-e-s grâce à la touche «***✓***» en bas à gauche de la carte utilisateur. S’ouvre alors automatiquement le **formulaire d'ajout/mise à jour de membres** décrit dans la section [Gestion des membres](../organization/members.md#ajout-mise-a-jour-de-membre) pour assurer l'exactitude des informations (si la personne est membre), ou compléter si la personne ne s'est inscrit qu'avec son adresse mail (pour devenir membre).
 
 En effet, lors de la réservation, il est possible de ne donner qu'une adresse mail. C’est lors de sa 1ère présence à un événement qu’un compte est créé. Dès lors, il faut renseigner le nom et le prénom de la personne participante.
 

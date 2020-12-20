@@ -1,6 +1,6 @@
 # Gérer
 
-!!! info "La page ***Gérer*** permet de modifier des propriétés critiques de l'organisation, elle est donc réservée aux administrateurs-rices"
+!!! info "La page ***Gérer*** permet de modifier des propriétés critiques de l'organisation, elle est donc réservée aux administrateurs-rices. Voir [gestion des groupes]("organization/groups.md")"
 
 ## Editer les informations de l'organisation
 
