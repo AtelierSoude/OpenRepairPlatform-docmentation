@@ -6,9 +6,9 @@
 inventory/<stuff_id>
 ```
 Le détail d'un objet est visible par tout utilisateur, même non connecté. 
-Si le propriétaire est un utilisateur dont le profil n'est pas visible, son nom sera caché des utilisateurs qui ne font pas parti d'une de ses organisations. 
+Si le-la propriétaire est un-e utilisateur-rice dont le profil n'est pas visible, son nom sera caché des utilisateurs-rices qui ne font pas partie d'une des organisations, dont il-elle fait partie. 
 
-Sur ce page, toutes les données relatives à cet objet, ainsi que ses dossiers de réparations sont visibles. Un historique afin de visualiser le suivi de cet objet.
+Sur cette page, sont visibles toutes les données relatives à cet objet, ses dossiers de réparations, et un historique afin de visualiser le suivi de cet objet.
 
 ![stuff-detail](../assets/stuff/stuff-detail.png#center)
 
@@ -19,22 +19,22 @@ Sur la page de détail d'un objet, il est possible d'éditer les différentes in
 
 Chaque champ utilise des formulaires séparés qui s'affichent en cliquant sur le bouton :fa-pencil:
 
-!!! info "qui peut éditer un objet ?"
-    L'utilisateur propriétaire, les volontaires, actifs et administrateurs des organisations dont le propriétaire est membre. Si le propriétaire est une organisation, ces sont égalements ces membres-ci qui peuvent l'éditer. 
+!!! info "Qui peut éditer un objet ?"
+    L'utilisateur-rice propriétaire, les volontaires, les actifs-ves et les administrateurs-rices des organisations dont le-la propriétaire est membre. Si le-la propriétaire est une organisation, ses membres peuvent également l'éditer.
     
 **Modifier le type d'appareil et les informations**
 
-En cliquant sur le bouton d'édition vert qui se situe proche du nom de l'objet, un formulaire proche du [formulaire de création d'objet](inventory.md#formulaire) apparaît. Il est possible d'y modifier les informations de l'objet ainsi que son type d'appareil.
+En cliquant sur le bouton d'édition vert à côté du nom de l'objet, un formulaire analogue au[formulaire de création d'objet](inventory.md#formulaire) apparaît. Il est possible d'y modifier les informations de l'objet ainsi que son type d'appareil.
 
 ![stuff-information](../assets/stuff/stuff-info.png#small)
 
 
 **Transférer la propriété**
 
-Un champ d'autocomplétion permet de choisir soit un utilisateur, soit une organisation. Il est également possible de désigner un utilisateur non connnu comme nouveau propriétaire. 
+Un champ autocomplétif permet de choisir soit un-e utilisateur-rice, soit une organisation. Il est également possible de désigner un-e utilisateur-rice non connu-e comme nouveau-elle propriétaire. 
 
 !!! danger 
-    Si vous transférez la propriété à une personne qui n'est pas membre de vos organisations, ou à un utilisateur inconnu de l'application, vous n'aurez plus aucuns droits de modifications sur cet objet. 
+    Si vous transférez la propriété à une personne qui n'est pas membre de vos organisations, ou à un-e utilisateur-rice inconnu de l'application, vous n'aurez plus aucun droit de modification sur cet objet. 
 
 ![stuff-owner](../assets/stuff/stuff-owner.png#small)
 
@@ -48,9 +48,9 @@ Une case à cocher permet de rendre visible ou non cet objet. Si la case est coc
 
 **Modifier la localisation**
 
-Un champ d'autocomplétion propose les différentes [lieux](../location.md) de l'application. Si le proporiétaire est un utilisateur, par défaut l'objet n'est pas localisé. 
+Un champ autocomplétif propose les différents [lieux](../location.md) de l'application. Si le-la propriétaire est un-e utilisateur-rice, par défaut l'objet n'est pas localisé. 
 
-Il est possible de ne pas localiser l'objet en supprimant la valeur en cliquant sur la croix rouge. 
+Il est possible de supprimer la localisation de l'objet en cliquant sur la croix rouge. 
 
 ![stuff-place](../assets/stuff/stuff-place.png#small)
 

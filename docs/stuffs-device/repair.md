@@ -3,7 +3,7 @@
 
 ## Voir un dossier 
 
-Un dossier de réparation est toujours relatif à un [objet](how-it-works.md#objet). Pour voir un dossier, il est nécessaire de se rendre sur le [détail d'un objet](inventory.md#detail-d-un-objet). 
+Un dossier de réparation est toujours relatif à un [objet](how-it-works.md#objet). Pour voir un dossier, il est nécessaire de se rendre sur le [détail de l'objet](how-it-works.md). 
 
 Un dossier se présente ainsi : 
 
@@ -15,16 +15,17 @@ Pour voir les interventions associées, il faut déplier l'accordéon en cliquan
 
 Pour ajouter un dossier, cliquer sur le bouton :fa-plus: qui suit ***Dossiers de réparations***
 
-!!! info "qui peut créer un dossier ?"
-    L'utilisateur propriétaire, les volontaires, actifs et administrateurs des organisations dont le propriétaire est membre. Si le propriétaire est une organisation, ces sont égalements ces membres-ci qui peuvent créer un dossier. 
+!!! info "Qui peut créer un dossier ?"
+    L'utilisateur-rice propriétaire, les volontaires, les actifs-ves et les administrateurs-rices des organisations dont le-la propriétaire est membre. Si le-la propriétaire est une organisation, ses membres peuvent également créer un dossier.
+    
 
 ![create-repair-folder](../assets/stuff/stuff-folder-create.png#small)
 
 Ce formulaire reprend les champs décrivant un [dossier de réparation](how-it-works.md#dossier-de-reparation). 
 
-Il faut indiquer une ```date d'ouverture``` et préciser si le dossier est en cours on non. 
+Il faut indiquer une ```date d'ouverture``` et préciser si le dossier est en cours ou non. 
 
-Il est nécessaire de **renseigner ,à minima, une observation**. Cette observation consistera l'état innitial de l'objet lors de l'ouverture de ce dossier. 
+Il est nécessaire de **renseigner à minima une observation**. Cette observation consistera en l'état initial de l'objet lors de l'ouverture de ce dossier. 
 
 
 ## Ajouter/modifier une interventions

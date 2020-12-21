@@ -27,7 +27,7 @@ Sur la vue détaillée d'un profil, un menu de navigation est visible.
 
 # Visibilité des profils 
 
-Par défaut un profil n'est pas visible. Il est possible de rendre sont profil visible en [modifiant votre profil](#modifier-son-profil). 
+Par défaut un profil n'est pas visible. Il est possible de rendre son profil visible en [modifiant votre profil](#modifier-son-profil). 
 
-!!! info "Les profils sont tout de même visible sous certaines conditions"
+!!! info "Les profils sont tout de même visibles sous certaines conditions"
     Effectivement, si vous êtes membre d'une organisation, les volontaires, actifs-ves, admnistrateurs-rices peuvent voir votre profil. Cela est nécessaire afin de pouvoir gérer vos adhésions, rendez-vous et inventaire.
