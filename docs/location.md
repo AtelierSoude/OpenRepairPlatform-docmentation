@@ -2,7 +2,7 @@
 
 ## Description générale
 
-L'application gère les lieux comme des entités similaires aux activités. Cela signifie qu'une organisation peut utiliser n'importe quel lieux, mais seul-e-s les administrateurs-rices de l'organisation de rattachement peuvent le modifier ou le supprimer. hghtfytrtf
+L'application gère les lieux comme des entités similaires aux activités. Cela signifie qu'une organisation peut utiliser n'importe quel lieux, mais seul-e-s les administrateurs-rices de l'organisation de rattachement peuvent le modifier ou le supprimer.
 
 ## Page de présentation
 
