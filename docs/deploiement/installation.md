@@ -1,7 +1,7 @@
 # Installation
 
-!!! warning "Ce guide est réservée aux développeurs"
-    Même si l'installation est simple, il est recommandé d'avoir quelques notions 
+!!! warning "Ce guide est réservée aux développeurs-euses"
+    Même si l'installation est simple, il est recommandé d'avoir quelques notions de programmation.
 
 Il existe plusieurs façon de créer votre propre instance. Que ce soit en local sur votre machine ou sur un serveur distant, ce guide présente une **installation à réaliser sur Linux**. Une installation sur Mac OS X est similaire mais nécessite quelques adaptations. Une installation sur un système Windows n'a pas été testée. 
 
@@ -33,7 +33,7 @@ cd OpenRepairPlatform
 
 ## Variables d'environnement 
 
-Avant toute opération, Renseignez les variables Django, Postgres et Nginx dans `openrepairplatform/.env` 
+Avant toute opération, renseignez les variables Django, Postgres et Nginx dans `openrepairplatform/.env` 
 
 ```
 POSTGRES_USER=CHANGE_ME 
@@ -53,7 +53,7 @@ DOMAIN_NAME=CHANGE_ME
 !!! danger "Attention"
     En mode développement sous environnement virtuel, les variables **POSTGRES_USER, POSTGRES_PASSWORD & DOMAIN_NAME** ne sont pas utilisées. Rendez-vous à la section [Mode développement : Environnement Virtuel ](#mode-developpement-environnement-virtuel) pour savoir pourquoi
 
-Que signifie ces variables ?
+Que signifient ces variables ?
 
 **Variables POSTGRES**
 ```
@@ -92,7 +92,7 @@ Installez Docker
 sudo apt install docker
 ```
 
-Lancer les scripts de démarrage (à la racine du dossier)
+Lancez les scripts de démarrage (à la racine du dossier)
 ```
  ./deployment/clean.sh && ./deployment/build.sh && ./deployment/run.sh 
 ```
@@ -100,11 +100,11 @@ Lancer les scripts de démarrage (à la racine du dossier)
 !!! warning "Nginx ne se lancera pas correctement"
     En effet, nginx va chercher un certificat SSL afin de sécuriser votre site. Celui-ci n'existe pas encore, il faut donc le créer.
 
-Vous pouvez désormais naviguez sur le site via votre nom de domaine et passer au guide de premier lancement.
+Vous pouvez désormais naviguer sur le site via votre nom de domaine et passer au guide de premier lancement.
 
 **Comment ajouter un certificat ?**
 
-Suivez ce guide et télécharger vos fichiers *.pem, *.cert 
+Suivez ce guide et téléchargez vos fichiers *.pem, *.cert 
 
 ...
 
@@ -118,15 +118,15 @@ Installez Docker-compose
 sudo apt install docker-ce
 ```
 
-Lancer cette commande
+Lancez cette commande
 ```
 docker-compose up
 ```
 
 !!! warning "Nginx ne se lancera pas correctement"
-    En effet, nginx va chercher un certificat innexistant car vous n'avez pas à sécuriser votre site en locale. Pas de panique, ce n'est pas important. 
+    En effet, nginx va chercher un certificat inexistant car vous n'avez pas à sécuriser votre site en local. Pas de panique, ce n'est pas important. 
 
-Vous pouvez désormais naviguez sur le site à l'adresse 127.0.0.1:8000 et passer au guide de premier lancement.
+Vous pouvez désormais naviguer sur le site à l'adresse 127.0.0.1:8000 et passer au guide de premier lancement.
 
 ## Mode développement : Environnement Virtuel 
 
@@ -150,7 +150,7 @@ postgres -d /usr/local/pgsql/data
 ```
 Par défault, en développement, l'application tente de se connecter à POSTGRES en utilisant le compte de l'utilisateur courant et sans mot de passe. C'est pourquoi les variables d'environnements **POSTGRES_USER & POSTGRES_PASSWORD** ne sont pas utilisées. 
 
-Créez la base de donnée (le même nom qu'entré dans le fichier .env)
+Créez la base de donnée (le même nom que celui entré dans le fichier .env)
 ```
 createdb POSTGRES_DB_NAME
 ```
@@ -188,4 +188,4 @@ Ensuite, pour démarrer le service les prochaines fois (avec le serveur POSTGRES
 ./manage.py runserver
 ```
 
-Vous pouvez désormais naviguez sur le site à l'adresse 127.0.0.1:8000 et passer au guide de premier lancement.
+Vous pouvez désormais naviguer sur le site à l'adresse 127.0.0.1:8000 et passer au guide de premier lancement.
