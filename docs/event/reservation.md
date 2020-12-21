@@ -18,7 +18,7 @@ Une fois inscrit-e sur un évènement, la confirmation d'inscription est émise 
 
 - Une bannière verte confirme à l'utilisateur-rice qu'il-elle est bien inscrit-e, il-elle reçoit également une notification par email et sa réservation est présente dans son profil sur l'application (***voir profil*** → onglet ***Rendez-vous***).
 
-- L'utilisateur-rice est redirigé-e vers une page de confirmation. C'est ici qu'il-elle pourra [renseigner l'objet qu'il-elle souhaite ramener](#indiquer-l-objet-que-l-on-souhaite-reparer).
+- L'utilisateur-rice est redirigé-e vers une page de confirmation. C'est ici qu'il-elle pourra [renseigner l'objet qu'il-elle souhaite ramener](#indiquer-lobjet-que-lon-souhaite-reparer).
 
 - Un mail de confirmation est envoyé .
 

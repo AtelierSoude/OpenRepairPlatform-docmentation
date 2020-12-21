@@ -1,14 +1,14 @@
 # Installation
 
-!!! warning "Ce guide est réservée aux développeurs-euses"
+!!! warning "Ce guide est réservé aux développeurs-euses"
     Même si l'installation est simple, il est recommandé d'avoir quelques notions de programmation.
 
-Il existe plusieurs façon de créer votre propre instance. Que ce soit en local sur votre machine ou sur un serveur distant, ce guide présente une **installation à réaliser sur Linux**. Une installation sur Mac OS X est similaire mais nécessite quelques adaptations. Une installation sur un système Windows n'a pas été testée. 
+Il existe plusieurs façons de créer votre propre instance. Que ce soit en local sur votre machine ou sur un serveur distant, ce guide présente une **installation à réaliser sur Linux**. Une installation sur Mac OS X est similaire mais nécessite quelques adaptations. Une installation sur un système Windows n'a pas été testée. 
 
-**Installation locale**
-Pour une installation locale, installez l'application uniquement en mode développement [avec Docker Compose](#mode-developpement-docker) ou via [environnement virtuel](#mode-developpement-environnement-virtuel). 
+**Installation locale** :
+Pour une installation locale, installez l'application uniquement en mode développement [avec Docker Compose](#mode-developpement-docker-compose) ou via [environnement virtuel](#mode-developpement-environnement-virtuel). 
 
-**Installation sur un serveur distant**
+**Installation sur un serveur distant** :
 En production, installez l'application uniquement en [mode production](#mode-production-docker).
 Vous devez louer ou créer votre serveur Linux. Pour plus de simplicité, nous recommandons d'utiliser 
 une instance Cloud. Par exemple chez [Scaleway](https://www.scaleway.com/fr/elements/). 
@@ -16,7 +16,7 @@ Accédez ensuite à votre serveur via [SSH](https://www.scaleway.com/en/docs/con
 
 
 ## Récupérer le dépôt
-Si vous n'avez pas git
+Si vous n'avez pas *Git*
 ```
 sudo apt install git
 ```
@@ -104,7 +104,7 @@ Vous pouvez désormais naviguer sur le site via votre nom de domaine et passer a
 
 **Comment ajouter un certificat ?**
 
-Suivez ce guide et téléchargez vos fichiers *.pem, *.cert 
+Suivez ce guide et téléchargez vos fichiers `*.pem`, `*.cert` 
 
 ...
 
@@ -148,9 +148,9 @@ Lancez postgres
 ```
 postgres -d /usr/local/pgsql/data
 ```
-Par défault, en développement, l'application tente de se connecter à POSTGRES en utilisant le compte de l'utilisateur courant et sans mot de passe. C'est pourquoi les variables d'environnements **POSTGRES_USER & POSTGRES_PASSWORD** ne sont pas utilisées. 
+Par défaut, en développement, l'application tente de se connecter à POSTGRES en utilisant le compte de l'utilisateur courant et sans mot de passe. C'est pourquoi les variables d'environnements **POSTGRES_USER & POSTGRES_PASSWORD** ne sont pas utilisées. 
 
-Créez la base de donnée (le même nom que celui entré dans le fichier .env)
+Créez la base de données (le même nom que celui entré dans le fichier .env)
 ```
 createdb POSTGRES_DB_NAME
 ```
