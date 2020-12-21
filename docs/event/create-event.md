@@ -2,52 +2,51 @@
 
 ## Accéder au formulaire
 
-!!! info "Qui peut créer un événément ?"
-    Seul les membres actifs et administrateurs d'une organisation peuvent le faire. Voir [gestion des groupes]("organization/groups.md")
+!!! info "Qui peut créer un événement ?"
+    Seul les membres actifs-ves et administrateurs-rives d'une organisation peuvent le faire. Voir [gestion des groupes]("organization/groups.md")
 
 **url** 
 ```
 /<nom_organization>/events/
 ```
 
-Page «**Organisation**» → Choisir l'organisation → «**Evénement**» → «**Ajouter un événement**»
+Page ***Organisation*** → *Choisir l'organisation* → ***Evénement*** → ***Ajouter un événement***
 
 
 ![Création d'un évènement](../assets/event/CreaEv.png)
 
 
-Il est possible d’ajouter des **événements ponctuels ou récurrents**. Il existe 2 formulaires différents, accessibles en bas de cette page.
+Il est possible d’ajouter des **événements ponctuels ou récurrents**. Il existe deux formulaires différents, accessibles en bas de cette page.
 
 ![Création d'un évènement](../assets/event/CreaEvBtn.png#center)
 
 
-Ces deux formulaire utilisent ce même [formulaire](#formulaire) décrit ci dessous. Le formulaire de création [d'événéments réccurents](#evenement-recurrent) inclu des champs supplémentaires.
+Ces deux formulaires utilisent ce même [formulaire](#formulaire) décrit ci dessous. Le formulaire de création [d'événements récurrents](#evenement-recurrent) inclut des champs supplémentaires.
 
 
 ## Formulaire de création 
 
 !!! warning "Certaines entités doivent exister au préalable"
-    Vous ne pourrez pas créer d'événéments s'il n'existe pas de type d'activité ni de lieu
-    . [créer une activités]("activity.md") , [créer un lieu]("location.md")
+    Vous ne pourrez pas créer d'événements s'il n'existe pas de type d'activité ni de lieu : voir [créer une activités]("activity.md"), [créer un lieu]("location.md")
 
 | Champ | description |
 |:--|:--|
-|  ```Activity``` | liste déroulante d'autocomplétion. La liste des activités est celle de toutes les activités créées par les organisations. Si l'événement est une nouvelle activité, il faut d'abord la créer dans le catalogue des activités. Voir [créer une activités]("activity.md") |
-| ```Pas de limite de place*``` | l'événement n'a pas de limitation de place. Permet également une inscription illimitée de participants |
-| ```Places disponibles``` | ce champ permet de définir le nombre de participants (hors animateurs.trices) pouvant assister à l'événement. Le nombre d'inscription ne pourra dépasser cette valeur |
-| ```Réservation interne au site``` | permet l'inscription à l'événement depuis le site |
-| ```Souhaitez vous gérer des réparations``` | offre la possibilité aux participants d'informer les objets qu'ils apportent à réparer |
-| ```En association avec``` | champ texte libre . Si l'événement se fait en partenariat avec un autre acteur, il est possible de le nommer ici. |
-| ```Réservation externe au site``` | permet d'empêcher la réservation par le site et informe de la démarche à suivre renseignée dans le champ suivant |
-| ```Lien vers un site externe``` | Si l'option précédente est cochée, l'utilisateur est redirigé vers cette URL. Sinon, le lien s'affiche simplement dans le détail d'un événement |
-| ```Description supplémentaire de l'activité``` | remplace la description de l'activité (celle renseignée lors de la création de l'activité) par le contenu de ce champ |
-| ```Lieu*``` | liste déroulante d'autocomplétion. La liste des lieux est celle de tous les lieux créés par les organisations. Choisir un lieu parmi ceux proposés. S'il est nouveau et n'apparait pas dans le menu déroulant, il est d'abord nécessaire de le créer parmi les lieux des associations. Voir [créer un lieu]("location.md") |
+|  ```Activity``` | Liste déroulante autocomplétive. La liste des activités est celle de toutes les activités créées par les organisations. Si l'événement est une nouvelle activité, il faut d'abord la créer dans le catalogue des activités. Voir [créer une activité]("activity.md") |
+| ```Pas de limite de place*``` | L'événement n'a pas de limitation de place et permmet donc une inscription illimitée. |
+| ```Places disponibles``` | Ce champ permet de définir le nombre de participant-e-s (hors animateurs-trices) pouvant assister à l'événement. Le nombre d'inscriptions ne pourra dépasser cette valeur |
+| ```Réservation interne au site``` | Permet l'inscription à l'événement depuis le site |
+| ```Souhaitez vous gérer des réparations``` | Offre la possibilité aux participant-e-s d'informer les objets qu'ils apportent à réparer |
+| ```En association avec``` | Champ texte libre. Si l'événement se fait en partenariat avec un autre acteur, il est possible de le nommer ici |
+| ```Réservation externe au site``` | Permet d'empêcher la réservation via la plateforme (exemple : réservation par un autre site, ou réservation sur place ...). Voir champ suivant |
+| ```Lien vers un site externe``` | Si l'option précédente est cochée, l'utilisateur-rice est redirigé-e vers cette URL. Sinon, le lien s'affiche simplement dans le détail d'un événement |
+| ```Description supplémentaire de l'activité``` | Remplace la description de l'activité (celle renseignée lors de la création de l'activité) par le contenu de ce champ |
+| ```Lieu``` | Liste déroulante autocomplétive. La liste des lieux est celle de tous les lieux créés par les organisations. Choisir un lieu parmi ceux proposés. S'il est nouveau et n'apparait pas dans le menu déroulant, il est d'abord nécessaire de le créer parmi les lieux des associations. Voir [créer un lieu]("location.md") |
 | ```Date``` | la date de l'événement |
 | ```Starts at``` | horaire de début de l'événement. A partir de cet horaire, les fonctionnalités de [gestion de l'événement]("/event/manange-event.md") seront disponibles |
-| ```Ends at``` | horaire de fin. Une fois cet horaire atteint, l'événement s'archivera automatiquement et ne sera plus visible depuis la page commune des événements. Il est accessible depuis "**Organisation**" - l'association organisatrice - "**Événement**" |
-| ```Nombre d'animateurs attendus``` | indique le nombre d'animateurs.trices attendu. Ce nombre ne limite pas le nombre d'inscription |
-| ```Organizers``` | liste multiple d'autocompletion. Permet d'ajouter des animateurs pendant la création de l'événement. |
-| ```Conditions``` | liste multiple d'autocompletion. Permet de choisir une ou plusieurs conditions parmis celles référencées. Si une nouvelle condition est requise, il faut d'abord la [créer](""). Les conditions ne sont pas restrictives. [Voir de quoi il s'agit]("). |
+| ```Ends at``` | horaire de fin. Une fois cet horaire atteint, l'événement s'archivera automatiquement et ne sera plus visible depuis la page commune des événements. Il est accessible depuis ***Organisation*** - *l'association organisatrice* - ***Événement*** |
+| ```Nombre d'animateurs attendus``` | Indique le nombre d'animateurs-rices attendu. Ce nombre ne limite pas le nombre d'inscriptions |
+| ```Organizers``` | Liste multiple autocompletive. Permet d'ajouter des animateurs-rices pendant la création de l'événement |
+| ```Conditions``` | Liste multiple autocompletive. Permet de choisir une ou plusieurs conditions parmi celles référencées. Si une nouvelle condition est requise, il faut d'abord la [créer](../organization/manage#condition-dacces). Les conditions ne sont pas restrictives. [Voir de quoi il s'agit](../organization/manage#condition-dacces). |
 
 !!! info "Attention"
     Le format de la date et les horaires de l'événément dépendent de la configuration languistique de votre système.

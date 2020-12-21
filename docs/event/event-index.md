@@ -1,7 +1,7 @@
 # Parcourir / découvrir
 
-## Liste des événéments 
-Cette page événement donne accès à tous les événements à venir qui sont planifiés par les associations de l'application. Les événements antérieurs sont accessibles depuis "Organisation" - l'association organisatrice - "Événement".
+## Liste des événements 
+Cette page événement donne accès à tous les événements à venir qui sont planifiés par les associations de l'application. Les événements antérieurs sont accessibles depuis ***Organisation*** → *l'association organisatrice* → ***Événement***.
 
 Une 1ère section permet de rechercher spécifiquement un type d’événement ainsi qu’un lieu.
 
@@ -21,4 +21,5 @@ Ensuite viennent les événements avec :
 ![Détail de l'évènement](../assets/event/DetailEvenement.png)
 
 ## Détail d'un événement 
+
 

@@ -1,29 +1,29 @@
-# Réserver un évènement
+# Réserver un événement
 
-## Résever
+## Réserver
 
-Il est possible de s'inscrire à un événement directement sur la [carte d'un événement](event-index.md#liste-des-evenements), ou bien via le [détail de cet événément](event-index.md#detail-dun-evenement).  
+Il est possible de s'inscrire à un événement directement sur la [carte d'un événement](event-index.md#liste-des-evenements), ou bien via le [détail de cet événement](event-index.md#detail-dun-evenement).  
 
-!!! info "Il est possible de s'inscrire avec ou sans compte utilisateur, donc attention aux erreurs d'adresses mail" 
+!!! info "Il est possible de s'inscrire avec ou sans compte utilisateur, donc attention aux erreurs d'adresse mail" 
  
-Cliquer sur ***Je participe***. Si l'utilisateur est connecté, la participation est immédiattement validée. Sinon, 
-renseigner son adresse mail dans la fenêtre qui apparaît. 
+Cliquez sur ***Je participe***. Si l'utilisateur-rice est connecté, la participation est immédiatement validée. Sinon, 
+renseignez son adresse mail dans la fenêtre qui apparaît. 
 
-!!! warning "Attention aux erreurs d'adressses mail"
-    En cas d'erreur sur son adresse mail, l'utilisateur inscrite ne recevra ni confirmation de rendez-vous, ni notification d'annulation le cas échéant.
+!!! warning "Attention aux erreurs d'adresse mail"
+    En cas d'erreur sur son adresse mail, l'utilisateur-rice inscrite ne recevra ni confirmation de rendez-vous, ni notification d'annulation le cas échéant.
 
 ## Confirmation d'inscription
 
 Une fois inscrit-e sur un évènement, la confirmation d'inscription est émise par plusieurs canaux. 
 
-- Une bannière verte confirme à l'utilisateur qu'elle est bien inscrite, celle-ci reçoit également une notification par email et sa réservation est présente dans son profil sur l'application (***voir profil*** → onglet ***Rendez-vous***).
+- Une bannière verte confirme à l'utilisateur-rice qu'il-elle est bien inscrit-e, il-elle reçoit également une notification par email et sa réservation est présente dans son profil sur l'application (***voir profil*** → onglet ***Rendez-vous***).
 
-- L'utilisateur est redirigé vers une page de confirmation. C'est ici qu'il pourra [renseigner l'objet qu'il souhaite ramener](#indiquer-l-objet-que-l-on-souhaite-reparer).
+- L'utilisateur-rice est redirigé-e vers une page de confirmation. C'est ici qu'il-elle pourra [renseigner l'objet qu'il-elle souhaite ramener](#indiquer-l-objet-que-l-on-souhaite-reparer).
 
-- Un mail de confirmation est envoyé 
+- Un mail de confirmation est envoyé .
 
-!!! warning "Si l'utilisateur ne reçoit pas de confirmation"
-    Il est possible que l'email de confirmation de rendez-vous soit considéré comme un spam par certaines boites mail. Il faut donc s'assurer de vérifier le dossier spam plutot que se réinscrire avec une autre adresse.
+!!! warning "Si l'utilisateur-rice ne reçoit pas de confirmation"
+    Il est possible que l'email de confirmation de rendez-vous soit considéré comme un spam par certaines boîtes mail. Il faut donc vérifier le dossier spam plutôt que se réinscrire avec une autre adresse.
 
 ## Indiquer l'objet que l'on souhaite réparer 
 

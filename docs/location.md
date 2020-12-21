@@ -28,8 +28,8 @@ La création (par la [page ***Gérer*** d'une organisation](organization/manage.
 | ```Place description``` | Description du lieu |
 | ```Category``` | Type de lieu (par ex : centre social, squat, médiathèque ...) |
 | ```Street Adress``` | Adresse du lieu |
-| ```Image``` | Le bouton ***parcourir***  permet de télécharger une image illustrant le lieu. Champ facultatif mais conseillé pour l’identification du lieu |
-| ```Lieu Principal ``` | Permet de déclarer le lieu comme _Lieu Principal_ de l'organisation, ce qui le fera apparaître sur la page de présentation de l'organisation. |
+| ```Image``` | Le bouton ***Parcourir***  permet de télécharger une image illustrant le lieu. Champ facultatif mais conseillé pour l’identification du lieu |
+| ```Lieu Principal ``` | Permet de déclarer le lieu comme ***Lieu Principal*** de l'organisation, ce qui le fera apparaître sur la page de présentation de l'organisation. |
 
 
 ## Suppression d'un lieu
