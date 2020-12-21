@@ -18,5 +18,5 @@ Les droits sont différents selon les groupes. Les niveaux supérieurs d'autoris
 |:--|:--|
 | Administrateur-rice  | Créer, modifier, supprimer : organisation, lieux, activités, conditions, événements |
 | Membre actif-ve | Créer et modifier un événement, [Gérer un événement](../event/manage-event.md). Créer et modifier des membres  |
-| Volontaire | S'inscrire en **animateur-rice** d'un événement. Créer et modifier des objets. | 
+| Volontaire | S'inscrire en animateur-rice d'un événement. Créer et modifier des objets. | 
 

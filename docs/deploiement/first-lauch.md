@@ -34,14 +34,14 @@ mot de passe : adminpass
 ```
 
 !!! Danger "Attention"
-    Modifiez le mot de passe de cet utilisateur administrateur en utilisant un mot de passe fort. C'est important !
+    Modifiez le mot de passe de cet utilisateur-administrateur en utilisant un mot de passe fort. C'est important !
 
 Pour plus d'informations sur l'administration consultez la documentation de Django. 
 
 ## Initialiser
 
 L'application est vide de toute donnée dans sa base. 
-Pour commencer à utiliser l'application, il faut faire quelques actions.
+Pour commencer à utiliser l'application, il est nécessaire de faire quelques actions préalables.
 
 **Renseignez des catégories d'activités**
 
@@ -65,13 +65,8 @@ Ces catégories sont utilisées pour créer des appareils.
 
 Pour comprendre de quoi il s'agit, voir la page concernant les [catégories d'appareils](../stuffs-device/how-it-works.md#categorie)
 
-<<<<<<< HEAD
-Vous pouvez créer vos propres catégories. Néanmois un jeu de données initial est disponible.
-Le jeu de données ```electronics_categories_FR.json``` est présent à la racine du dossier *Inventory* du dépôt. Voir [Importer / exporter des données](#importer-exporter-des-donnees)
-=======
-Vous pouvez créer vos propres catégories. Néanmoins un jeu  initial de données est disponible.
+Vous pouvez créer vos propres catégories. Néanmoins un jeu initial de données est disponible.
 Le jeu de données ```electronics_categories_FR.json``` est présent à la racine du dossier ***Inventory*** du dépôt. Voir [Importer / exporter des données](#importer-exporter-des-donnees)
->>>>>>> 48d1d50e11d202168cfeb65f457b4f1eaebda227
 
 Il n'y a plus rien d'autre à faire ici, il n'est plus nécessaire d'utiliser l'administration du site. 
 

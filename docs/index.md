@@ -15,7 +15,7 @@ Le projet se base sur 4 axes :
 
 Cette application utilise le framework Python [Django](https://www.djangoproject.com/). 
 
-Le code est **OpenSource et est disponible sur ce dépôt GitHub** :
+Le code est **OpenSource et disponible sur ce dépôt GitHub** :
 
 ```
 https://github.com/ClemsP/OpenRepairPlatform
@@ -41,6 +41,6 @@ Cette application est utilisée par [l'Atelier Soudé](https://atelier-soude.fr)
  https://dev.atelier-soude.fr 
  ```
 
-L'association propose cet outils aux structures de l'agglomération du Grand Lyon, où elle officie. 
+L'association propose cet outil aux structures de la métropole de Lyon, où elle officie. 
 Pour intégrer cette plateforme, contactez [l'Atelier Soudé](https://atelier-soude.fr).
 
