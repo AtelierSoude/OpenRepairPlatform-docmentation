@@ -74,7 +74,7 @@ Il n'y a plus rien d'autre à faire ici, il n'est plus nécessaire d'utiliser l'
 
 Vous pouvez [créer la première organisation](../organization/create.md) de l'application via l'interface utilisateur. 
 
-Lorsque vous créez cette organisation, vous devenez automatiquement administrateur de celle-ci. Vous avez désormais tous les droits pour effectuer les actions possibles sur cette application lorsque votre êtes administrateurs de l'application et d'une organisation. 
+Lorsque vous créez cette organisation, vous devenez automatiquement administrateur de celle-ci. Vous avez désormais tous les droits pour effectuer les actions possibles sur cette application lorsque vous êtes administrateur-rice de l'application et d'une organisation. 
 
 **Modifiez votre profil**
 
@@ -84,7 +84,7 @@ Ultime étape. Modifiez votre profil en suivant ce [guide](../account/profil.md)
 ## Personnaliser 
 
 **Nom du site**
-Pour modifier le nom de l'application, modifiez la variable du processeur de contexte. Modifier "Réparons" par le nom de votre application.
+Pour modifier le nom de l'application, modifiez la variable du processeur de contexte. Modifiez "Réparons" par le nom de votre application.
 
 ```
 openrepairplatform/context-processors.py 
@@ -108,7 +108,7 @@ Remplacez le fichier *logo.png* par le vôtre (il s'agit du logo visible dans le
 Remplacez le fichier *logo-simple.png* par le vôtre (il s'agit du logo visible sur la page de connexion).
 
 Ensuite, rendez-vous sur le site ```https://www.favicon-generator.org/``` pour créer vos *favicons*. 
-Remplacer tous les fichiers inclus dans le dossier ```openrepairplatform/static/img/favicon``` par vos fichiers de favicons. 
+Remplacez tous les fichiers inclus dans le dossier ```openrepairplatform/static/img/favicon``` par vos fichiers de *favicons*. 
 
 **Schéma de couleurs**
 
@@ -118,16 +118,16 @@ Pour personnaliser le schéma des couleurs de votre site, modifiez les variables
 ```
 
 !!! info 
-    La personnalisation des couleurs n'est pas encore complètement implémentées. Utilisez des codes couleurs de luminosités proches du set prédéfini. 
+    La personnalisation des couleurs n'est pas encore complètement implémentée. Utilisez des codes couleurs de luminosités proches du set prédéfini. 
 
 
 ## Importer / exporter des données 
 
-Importer des données peut être utile si vous possédez, par exemple, déjà une base de donnée de membres de votre ancien site/organisation.
+Importer des données peut être utile si vous possédez, par exemple, déjà une base de données de membres de votre ancien site/organisation.
 
 Lorsque vous cliquez sur certaines entités de la base de données, les options ***importer*** ou ***exporter*** sont disponibles dans l'interface, en haut à droite.
 
 !!! danger "Importer des données demande de solides connaissances."
-    Pour importer des données, vous devez créer un fichier .json ou .csv respectant strictement la structure des données de l'application. 
+    Pour importer des données, vous devez créer un fichier ``.json`` ou ``.csv`` respectant strictement la structure des données de l'application. 
     Pour connaître la structure des données que vous souhaitez importer, il vous faut parcourir les modèles de données du code de l'application. 
 
