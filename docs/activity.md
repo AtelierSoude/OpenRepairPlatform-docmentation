@@ -7,7 +7,7 @@ Ces dernières sont classées par catégories (ateliers de réparation, ateliers
 
 ### Page descriptive d’une activité
 
-![Page descriptive de l'activité](../assets/activity/4.png)
+![Page descriptive de l'activité](../assets/activity/activity-page.png)
 
 Sur cette page on retrouve l’image illustrant l’activité, sa thématique, l’organisation, sa description et ses prochains évènements dans la rubrique ***prochaines dates***. Pour participer à l’un des évènements, il suffit de cliquer sur l’encart de celui-ci et suivre les instructions de la rubrique [***Événements***](event/reservation.md). 
 
@@ -30,7 +30,7 @@ Une activité est reliée à l'organisation qui la crée mais elle peut être ut
 
 Page ***Organisation*** → ***Choisir l'organisation*** → ***Gérer*** → ***Ajouter une activité***
 
-![Création d'une activité](../assets/activity/1.png)
+![Création d'une activité](../assets/activity/org-manage-activity.png)
 
 Pour la ***création d’une nouvelle activité*** : remplir les différents champs du formulaire.
 
@@ -43,7 +43,7 @@ Pour la ***création d’une nouvelle activité*** : remplir les différents ch
 | ```activity description``` *(FR : Description de l’activité)* | Ecrire une description précise de l’activité. Le texte peut être mis en forme via les différents outils proposés. Champ obligatoire.|
 | ```image``` | Appuyer sur le bouton  ***Parcourir*** pour télécharger une image illustrant l’activité. Champ falcultatif mais conseillé pour l’identification des différentes activités. |
 
-![Page de création](../assets/activity/2.png)
+![Page de création](../assets/activity/activity-form.png)
 
 Pour finaliser l’enregistrement de l’activité, cliquer sur le bouton vert ***Valider***.
 A présent, l’activité est créée et répertoriée dans la page générale ***Activités***.
@@ -54,7 +54,8 @@ A présent, l’activité est créée et répertoriée dans la page générale *
     Seul-e-s les administrateurs-rices de l'organisation créatrice de l'activité peuvent le faire. Voir [gestion des groupes]("organization/groups.md")
 
 Pour modifier une activité, il faut se rendre sur le détail de l'activité. Un bouton d'édition et un bouton de suppression s'affichera si l'utilisateur-rice a les droits. 
-![Modifier](../assets/activity/5.png#center)
+
+![Modifier](../assets/activity/activity-button.png#center)
 
 La suppression d'une activité ne supprimera pas les événements créés avec celle-ci. Mais ces événéments afficheront un type d'activité ***None*** . 
 

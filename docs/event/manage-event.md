@@ -2,7 +2,7 @@
 
 ## Modification de l'événement
 
-Une fois l’événement créé, il est possible de le modifier en accédant à cet événement depuis l’onglet ***Evénement***. Ensuite le crayon **(1)** permet de le modifier tandis que la poubelle **(2)** permet de le supprimer.
+Une fois l’événement créé, il est possible de le modifier en accédant à cet événement depuis l’onglet ***Evénements***. Ensuite le crayon **(1)** permet de le modifier tandis que la poubelle **(2)** permet de le supprimer.
 
 ![Inscription sur l'évènement](../assets/event/InscriptionEv.png)
 

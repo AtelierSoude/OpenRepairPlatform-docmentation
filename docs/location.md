@@ -15,7 +15,7 @@ Cette page est accessible par la page d'un évènement se déroulant dans ce lie
 ## Formulaire de création/modification d'un lieu
 
 !!! info "Formulaire accessible uniquement aux administrateur-rices d'une organisation"
-    De plus, la modification d'un lieu est réservé aux administrateurs-rices de l'organisation qui a créé le lieu. Voir [gestion des groupes]("organization/groups.md")
+    De plus, la modification d'un lieu est réservée aux administrateurs-rices de l'organisation qui a créé le lieu. Voir [gestion des groupes]("organization/groups.md")
 
 
 La création (par la [page ***Gérer*** d'une organisation](organization/manage.md#lieux)) ou la modification (par la page de présentation d'un lieu ou par la [page ***Gérer*** d'une organisation](organization/manage.md#lieux)) d'un lieu se fait par le formulaire de création/modification d'un lieu : 

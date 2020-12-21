@@ -13,7 +13,7 @@ Ensuite viennent les événements avec :
 2. Le nombre de places disponibles
 3. L’intitulé de l’événement
 4. Le lieu
-5. Les animateurs
+5. Les animateurs-rices
 6. Le descriptif de l’événement
 7. L’association organisatrice
 8. Le lien d’inscription

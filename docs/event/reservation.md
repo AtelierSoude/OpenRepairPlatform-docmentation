@@ -6,11 +6,11 @@ Il est possible de s'inscrire à un événement directement sur la [carte d'un �
 
 !!! info "Il est possible de s'inscrire avec ou sans compte utilisateur, donc attention aux erreurs d'adresse mail" 
  
-Cliquez sur ***Je participe***. Si l'utilisateur-rice est connecté, la participation est immédiatement validée. Sinon, 
+Cliquez sur ***Je participe***. Si l'utilisateur-rice est connecté-e, la participation est immédiatement validée. Sinon, 
 renseignez son adresse mail dans la fenêtre qui apparaît. 
 
 !!! warning "Attention aux erreurs d'adresse mail"
-    En cas d'erreur sur son adresse mail, l'utilisateur-rice inscrite ne recevra ni confirmation de rendez-vous, ni notification d'annulation le cas échéant.
+    En cas d'erreur sur son adresse mail, l'utilisateur-rice inscrit-e ne recevra ni confirmation de rendez-vous, ni notification d'annulation le cas échéant.
 
 ## Confirmation d'inscription
 
@@ -33,6 +33,6 @@ Sur la page de confirmation d'inscription, il est possible de renseigner dès à
 
 L'annulation d'un rendez-vous peut se faire par différents canaux. Le mail de confirmation émis au moment de la réservation contient un lien d'annulation. 
 
-Il est également possible d'annuler un rendez-vous via la [page du profil](../account/profil.md) de l'utilisateur connecté. 
+Il est également possible d'annuler un rendez-vous via la [page du profil](../account/profil.md) de l'utilisateur-rice connecté-e. 
 
 Suite à l'annulation, un mail de confirmation d'annulation est envoyé. 
