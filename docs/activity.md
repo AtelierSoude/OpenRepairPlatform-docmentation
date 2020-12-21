@@ -3,7 +3,7 @@
 ## Parcourir, découvrir
 
 Depuis la page d’accueil, en cliquant sur l’icône ***Activités***, il est possible d’accéder à l’ensemble des activités, toutes organisations confondues, proposées au public. 
-Ces dernières sont classées par catégories (Ateliers de réparations, ateliers de créations, formations, rencontres, ect…). Il est possible de voir par qui sont proposées ces activités mais aussi d'avoir une vue d’ensemble des différentes activités. En cliquant sur l’activité désirée, il est alors possible d’accéder au descriptif, plus précis et même de s’inscrire au prochain événement proposant l’activité en question.
+Ces dernières sont classées par catégories (ateliers de réparation, ateliers de création, formations, rencontres, ect.). Il est possible de voir par quelle organisation sont proposées ces activités mais aussi d'avoir une vue d’ensemble des différentes activités. En cliquant sur l’activité désirée, il est alors possible d’accéder au descriptif, plus précis et même de s’inscrire au prochain événement proposant l’activité en question.
 
 ### Page descriptive d’une activité
 
@@ -36,12 +36,12 @@ Pour la ***création d’une nouvelle activité*** : remplir les différents ch
 
 ### Formulaire 
 
-| Champ | description |
+| Champ | Description |
 |:--|:--|
-|  ```activity type``` *(FR : type d’activité)* | ici donner un titre précis à l’activité (ex : Atelier de Réparation participative électronique » |
-| ```category``` *(FR : catégorie)* | dans le menu défilant choisir le type d’activité (ex : formation). Champ facultatif, mais conseillé pour le référencement des activités. |
-| ```activity description``` *(FR : Description de l’activité)* | écrire une description précise de l’activité. Le texte peut être mis en forme via les différents outils proposés. Champ obligatoire.|
-| ```image``` | appuyer sur le bouton  ***Parcourir*** pour télécharger une image illustrant l’activité. Champ falcultatif mais conseillé pour l’identification des différentes activités. |
+|  ```activity type``` *(FR : type d’activité)* | Ici donner un titre précis à l’activité (ex : Atelier de Réparation participative électronique » |
+| ```category``` *(FR : catégorie)* | Dans le menu défilant choisir le type d’activité (ex : formation). Champ facultatif, mais conseillé pour le référencement des activités. |
+| ```activity description``` *(FR : Description de l’activité)* | Ecrire une description précise de l’activité. Le texte peut être mis en forme via les différents outils proposés. Champ obligatoire.|
+| ```image``` | Appuyer sur le bouton  ***Parcourir*** pour télécharger une image illustrant l’activité. Champ falcultatif mais conseillé pour l’identification des différentes activités. |
 
 ![Page de création](../assets/activity/2.png)
 

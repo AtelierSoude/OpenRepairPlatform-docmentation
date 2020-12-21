@@ -28,14 +28,14 @@ Il faut indiquer une ```date d'ouverture``` et préciser si le dossier est en co
 Il est nécessaire de **renseigner à minima une observation**. Cette observation consistera en l'état initial de l'objet lors de l'ouverture de ce dossier. 
 
 
-## Ajouter/modifier une interventions
+## Ajouter/modifier une intervention
 
 Pour ajouter une intervention à un dossier, cliquer sur le lien ***ajouter une intervention*** inclu dans un dossier de réparation.
 
-Pour modifier une intervention, cliquer sur le bouton d'edition :fa-pencil: qui suit la ligne décivrant l'intervention. 
+Pour modifier une intervention, cliquer sur le bouton d'édition :fa-pencil: qui suit la ligne décrivant l'intervention. 
 
-!!! info "qui peut ajouter/modifier ?"
-    L'utilisateur propriétaire, les volontaires, actifs et administrateurs des organisations dont le propriétaire est membre. Si le propriétaire est une organisation, ces sont égalements ces membres-ci qui peuvent modifier/créer une intervention. 
+!!! info "Qui peut ajouter/modifier ?"
+    L'utilisateur-rice propriétaire, les volontaires, les actifs-ves et les administrateurs-rices des organisations dont le-la propriétaire est membre. Si le-la propriétaire est une organisation, ses membres peuvent également ajouter/modifier une intervention.
 
 ![create-intervention](../assets/stuff/intervention.png#small)
 
