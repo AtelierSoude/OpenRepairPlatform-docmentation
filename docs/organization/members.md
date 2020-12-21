@@ -1,10 +1,10 @@
 # Gestion des membres
 
-Sur cete page, il est possible d'accéder aux informations des adhérent-e-s. Le menu déroulant ***Visible columns*** permet de choisir les informations affichées. Cliquer sur un membre permet de voir son profil.
+Sur cete page, il est possible d'accéder aux informations des adhérent-e-s. Le menu déroulant ***Visible columns*** permet de choisir les informations affichées. Cliquer sur un-e membre permet de voir son profil.
 
 Comme indiqué dans la rubrique [Groupes](groups.md), les membres sont répartis sur 3 niveaux de privilèges : **Volontaire**, **Membre actif-ve** et **Administrateur-rice**. Le détail de ces niveaux est expliqué dans la rubrique [Groupes](groups.md).
 
-Sur la page **Membres**, il est possible d'accéder aux informations des adhérent-e-s. Le menu déroulant "Visible columns" permet de modifier le nombre d'informations visibles. La page possède un filtre de **Nom**, **Prénom**, **Mails** qui peut aider à retrouver un membre.
+Sur la page **Membres**, il est possible d'accéder aux informations des adhérent-e-s. Le menu déroulant ***Visible columns*** permet de modifier le nombre d'informations visibles. La page possède un filtre de **Nom**, **Prénom**, **Mails** qui peut aider à retrouver un-e membre.
 
 ![Bandeau Membres](../assets/Membres.png)
 

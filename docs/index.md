@@ -3,7 +3,7 @@
 ## OpenRepairPlateform
 Cette documentation est la documentation du projet **OpenRepairPlatform**, **application web dédiée à la réparation participative**. 
 
-Ce projet cherche à faciliter l’accessibilité de la réparation par le plus grand nombre. Par une interface simple et claire, l'application invite participants et organisations à collaborer autours de l’auto-réparation et de la réparation participative.
+Ce projet cherche à faciliter l’accessibilité de la réparation par le plus grand nombre. Par une interface simple et claire, l'application invite participants et organisations à collaborer autour de l’auto-réparation et de la réparation participative.
 Le projet se base sur 4 axes :
 
 - Accompagner la réparation par les citoyens

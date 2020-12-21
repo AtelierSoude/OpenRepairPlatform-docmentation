@@ -183,7 +183,7 @@ Premier lancement
 !!! info 
     Pour lancer l'application vous devez systématiquement activer votre environnement virtuel au préalable.
 
-Ensuite, pour démarrer le service les prochaines fois (avec le serveur POSTGRES de lancé)
+Ensuite, pour démarrer le service les prochaines fois (avec le serveur POSTGRES lancé)
 ```
 ./manage.py runserver
 ```
