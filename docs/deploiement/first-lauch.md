@@ -65,8 +65,8 @@ Ces catégories sont utilisées pour créer des appareils.
 
 Pour comprendre de quoi il s'agit, voir la page concernant les [catégories d'appareils](../stuffs-device/how-it-works.md#categorie)
 
-Vous pouvez créer vos propres catégories. Néanmois un jeu de données initial est disponible.
-Le jeu de données ```electronics_categories_FR.json``` est présent à la racine du dossier *Inventory* du dépôt. Voir [Importer / exporter des données](#importer-/-exporter-des-donnees)
+Vous pouvez créer vos propres catégories. Néanmoins un jeu  initial de données est disponible.
+Le jeu de données ```electronics_categories_FR.json``` est présent à la racine du dossier ***Inventory*** du dépôt. Voir [Importer / exporter des données](#importer-exporter-des-donnees)
 
 Il n'y a plus rien d'autre à faire ici, il n'est plus nécessaire d'utiliser l'administration du site. 
 
