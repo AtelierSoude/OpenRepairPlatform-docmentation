@@ -4,7 +4,7 @@ La page ***Groupes*** permet d'attribuer des rôles aux utilisateur-trices.
 
 ![groups](../assets/organization-groups.png)
 
-La page ***Groupes*** illustre les 3 types de membres d'une organisation : Administrateur-rice, Membre actif-ve, Volontaire (classé par privilèges décroissants sur l'application). Chaque membre a la possibilité d'agir sur les groupes de personnes ayant un niveau de privilège inférieur ou égal au sien :
+La page ***Groupes*** illustre les 3 types de membres d'une organisation : Administrateur-rice, Membre actif-ve, Volontaire (classés par privilèges décroissants sur l'application). Chaque membre a la possibilité d'agir sur les groupes de personnes ayant un niveau de privilège inférieur ou égal au sien :
 
 - Un-e administateur-trice peut créer des administrateur-trices, actif-ve-s et des volontaires, ainsi que supprimer leurs droits
 - Un-e actif-ve peut ajouter des actif-ves et volontaires 
