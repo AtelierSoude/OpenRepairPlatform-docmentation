@@ -66,7 +66,7 @@ Ces catégories sont utilisées pour créer des appareils.
 Pour comprendre de quoi il s'agit, voir la page qui concerne les [catégories d'appareils](/inventory/how-ti-works.md#categorie)
 
 Vous pouvez créer vos propres catégories. Néanmois un jeu de données initial est disponible.
-Ce jeu de données est présent à la racine du dossier *Inventory* du dépôt. Voir [Importer / exporter des données](#importer-/-exporter-des-donnees)
+Le jeu de données ```electronics_categories_FR.json``` est présent à la racine du dossier *Inventory* du dépôt. Voir [Importer / exporter des données](#importer-/-exporter-des-donnees)
 
 Il n'y a plus rien d'autre à faire ici, il n'est plus nécessaire d'utiliser l'administration du site. 
 
