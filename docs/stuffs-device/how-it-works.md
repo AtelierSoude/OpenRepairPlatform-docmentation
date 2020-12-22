@@ -15,7 +15,7 @@ Un objet est un exemplaire d'un appareil Cet appareil possède une catégorie.
 Cet objet peut posséder des dossiers de réparations et chaque dossier peut contenir plusieurs interventions. 
 
 **Exemple**
->l'utilisateur possède un objet dans son inventaire. Cet objet est exemplaire d'un appareil dénommé cafeterie Krups MKRE43. Cet appareil est issu de la catégorie cafetière à capsule. Cette catégorie descend de la catégorie cafetière et petit électroménager. Cet objet possède un dossier ouvert le 14/01/2024. Ce dossier contient une intervention réalisée le 14/01/2024. 
+>L'utilisateur possède un objet dans son inventaire. Cet objet est exemplaire d'un appareil dénommé cafetière Kripsou MKRE666. Cet appareil est issu de la catégorie cafetière à capsule. Cette catégorie descend de la catégorie cafetière et petit électroménager. Cet objet possède un dossier ouvert le 14/01/2024. Ce dossier contient une intervention réalisée le 14/01/2024. 
 
 ![schema-inventory](../assets/stuff/schema-inventory.jpg#small)
 
@@ -69,7 +69,7 @@ Il peut exister plusieurs interventions car une réparation peut s'étendre sur 
 
 Une intervention est reliée à un dossier de réparation. 
 
-Elle est relative à une date d'exécution ou à un événement. Elle contient une série d'actions (observation, raisonnement, action, status).  
+Elle est relative à une date d'exécution ou à un événement. Elle contient une série d'actions (observation, raisonnement, action, statut).  
 
 | Champ | Description |
 |:--|:--|

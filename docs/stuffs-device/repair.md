@@ -44,5 +44,5 @@ Ce formulaire reprend les champs décrivant une [intervention](how-it-works.md#i
 
 Outre la date de l'intervention et ses actions disponibles sous forme de champ d'autocomplétion, il est possible d'indiquer si cette intervention à eu un impact sur le dossier et son objet : 
 
-* Si l'intervention clos le dossier. Le dossier passera donc du status **en cours** à **terminé**. 
+* Si l'intervention clôt le dossier. Le dossier passera donc du statut **en cours** à **terminé**. 
 * Si l'intervention modifie l'état général de l'objet. Une liste de choix d'état apparaît. L'état de l'objet sera ainsi modifié en conséquence. 

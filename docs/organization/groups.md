@@ -10,7 +10,7 @@ La page ***Groupes*** illustre les 3 types de membres d'une organisation : Admin
 - Un-e actif-ve peut ajouter des actif-ves et volontaires 
 - Un-e volontaire peut ajouter des volontaires 
 
-Pour l'ajout d'un-e utilisateur-trice dans un groupe, celui-ci ou celle-ci doit obligatoirement [posséder un compte](../account/create-account.md) sur l'application. Il est ensuite possible de l'ajouter gràce à un champ autocomplétif.
+Pour l'ajout d'un-e utilisateur-trice dans un groupe, celui-ci ou celle-ci doit obligatoirement [posséder un compte](../account/create-account.md) sur l'application. Il est ensuite possible de l'ajouter grâce à un champ autocomplétif.
 
 Les droits sont différents selon les groupes. Les niveaux supérieurs d'autorisation peuvent réaliser les actions des niveaux inférieurs. Ces droits ne sont donc pas ré-inscrits dans le tableau ci-dessous:
 

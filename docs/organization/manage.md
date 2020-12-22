@@ -24,7 +24,7 @@ Le bouton ***Ajouter une activité*** permet d'accéder au formulaire de créati
 
 ## Conditions d'accès 
 
-Cette section permet d'ajouter, modifier ou supprimer des conditions d'accès aux évènements déclarés par l'organisation (par exemple pour réserver un évènements aux adhérent-e-s uniquement ...). Le bouton ***Ajouter*** conduit au formulaire de création/modification de condition suivant : 
+Cette section permet d'ajouter, modifier ou supprimer des conditions d'accès aux évènements déclarés par l'organisation (par exemple pour réserver un évènements aux adhérent-e-s uniquement ...). Cliquer sur ***Ajouter*** conduit formulaire de création/modification de condition suivant : 
 
 | Champ | Description |
 |:--|:--|

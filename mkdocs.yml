@@ -28,7 +28,7 @@ nav:
       - 'event/reservation.md'
       - 'event/create-event.md'
       - 'event/manage-event.md'
-  - 'Organisation': 
+  - 'Organisations': 
       - 'organization/org-index.md'
       - 'organization/create.md'
       - 'organization/groups.md'

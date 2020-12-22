@@ -2,7 +2,7 @@
 
 ## Ajouter un objet 
 
-Les champs et les entités utilisées par ce forumulaire sont décrits [ici](how-it-works.md). 
+Les champs et les entités utilisés par ce formulaire sont décrits [ici](how-it-works.md). 
 
 ![stuff-create](../assets/stuff/stuff-create.png#small)
 
@@ -39,7 +39,7 @@ Les objets ainsi créés seront visibles dans un inventaire.
 Il existe plusieurs inventaires différents. 
 
 ### Inventaire utilisateur
-Chaque utilisateur-rice possède un inventaire d'objet. Cet inventaire est visible sur son profil.
+Chaque utilisateur-rice possède un inventaire d'objets. Cet inventaire est visible sur son profil.
 Il est possible d'ajouter un objet à cet inventaire en utilisant le bouton **ajouter un objet à l'inventaire**.
 
 !!! info "Qui peut ajouter un objet ?"

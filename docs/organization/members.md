@@ -21,7 +21,7 @@ Il est nécessaire de renseigner au moins, `adresse électronique`, `nom` et `pr
 !!! warning "Avant d'enregistrer un-e membre, il est conseillé de rechercher si il-elle n'est pas déjà présent-e grâce au champ autocomplétif prévu à cet effet"
     Entrer une adresse mail existante aura pour effet d'écraser le compte utilisateur correspondant avec les nouvelles informations fournies.
 
-Ce formulaire permet également de mettre à jour les informations d'un-e membre, notamment sa cotisation (champ ```Amount paid```). A la saisie de la première cotisation, à la date indiquée, l'application considérera comme ***A jour*** (si la personne a versé le montant indiqué dans ```Advised Contribution``` dans le [formulaire de modification de l'organisation](manage.md)) ou ***Incomplet*** (si la personne a versé moins) le-la membre pendant une durée de un an.
+Ce formulaire permet également de mettre à jour les informations d'un-e membre, notamment sa cotisation (champ ```Amount paid```). A la saisie de la première cotisation, à la date indiquée, l'application considérera comme ***A jour*** (si la personne a versé le montant indiqué dans ```Advised Contribution``` dans le [formulaire de modification de l'organisation](manage.md)) ou ***Incomplet*** (si la personne a versé moins) le-la membre pendant une durée d'un an.
 
 Cependant il est possible de réinitialiser ce décompte et repartir pour un an en cochant la case ``First fee`` (FR : première cotisation). Cette fonctionnalité peut être utile pour mettre à jour un-e membre qui paye sa cotisation en plusieurs fois, ou pour quelqu'un qui ne cotise réellement qu'au bout de plusieurs rendez-vous.
 

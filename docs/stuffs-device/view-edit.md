@@ -8,7 +8,7 @@ inventory/<stuff_id>
 Le détail d'un objet est visible par tout utilisateur, même non connecté. 
 Si le-la propriétaire est un-e utilisateur-rice dont le profil n'est pas visible, son nom sera caché des utilisateurs-rices qui ne font pas partie d'une des organisations, dont il-elle fait partie. 
 
-Sur cette page, sont visibles toutes les données relatives à cet objet, ses dossiers de réparations, et un historique afin de visualiser le suivi de cet objet.
+Sur cette page, sont visibles toutes les données relatives à cet objet, ses dossiers de réparations, et un historique permettant de le suivre.
 
 ![stuff-detail](../assets/stuff/stuff-detail.png#center)
 
@@ -24,7 +24,7 @@ Chaque champ utilise des formulaires séparés qui s'affichent en cliquant sur l
     
 **Modifier le type d'appareil et les informations**
 
-En cliquant sur le bouton d'édition vert à côté du nom de l'objet, un formulaire analogue au[formulaire de création d'objet](inventory.md#formulaire) apparaît. Il est possible d'y modifier les informations de l'objet ainsi que son type d'appareil.
+En cliquant sur le bouton d'édition vert à côté du nom de l'objet, un formulaire analogue au [formulaire de création d'objet](inventory.md#formulaire) apparaît. Il est possible d'y modifier les informations de l'objet ainsi que son type d'appareil.
 
 ![stuff-information](../assets/stuff/stuff-info.png#small)
 
