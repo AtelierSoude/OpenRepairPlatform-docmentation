@@ -18,8 +18,10 @@ A l’horaire de l’événement, sa page évolue et permet sa gestion. Le site 
 
 En effet, lors de la réservation, il est possible de ne donner qu'une adresse mail. C’est lors de sa 1ère présence à un événement qu’un compte est créé. Dès lors, il faut renseigner le nom et le prénom de la personne participant à l'événement.
 
+Il est possible d'ajouter des participant-e-s à l'aide du bouton :fa-pencil: qui suit le titre ***Participant-e-s***. 
+
 ## Fin de l'évènement
 
 A la fin de l’événement, il est nécessaire de le clôturer grâce à la touche **(5)** afin d’enregistrer les informations saisies (de créer les affiliations et enregistrer les cotisations associées). La clôture de l'événement va également supprimer de la base de données les comptes rattachés aux personnes n'ayant pas participé, mais uniquement si elles ne possèdent pas de compte membre (ie. si elles se sont enregistrées avec uniquement une adresse mail). Il est possible de clôturer plusieurs fois un évènement en cas d'oubli.
 
-Une fois l'horaire de fin atteint, l'événement n'est plus visible dans la liste publique des événements mais reste consultable dans l'onglet [Evènements](../organization/org-index.md) de la page de l'organisation.
+Une fois l'horaire de fin atteinte, l'événement n'est plus visible dans la liste publique des événements mais reste consultable dans l'onglet [Evènements](../organization/org-index.md) de la page de l'organisation.

@@ -7,7 +7,7 @@ Une 1ère section permet de rechercher spécifiquement un type d’événement a
 
 ![Bandeau évènement](../assets/event/Evenement.png)
 
-Ensuite viennent les événements avec :
+Ensuite, la liste des événéments s'affichent sous forme de cartes. Chaque carte indique : 
 
 1. La date
 2. Le nombre de places disponibles
@@ -22,4 +22,11 @@ Ensuite viennent les événements avec :
 
 ## Détail d'un événement 
 
+Sur le détail d'un événément, les mêmes infos sont visibles ansi que d'autres informations additionnelles :
 
+- Une carte de géolocalisation 
+- La liste des animateurs-rices présent-e-s. 
+- La liste des conditions d'accès à l'événément 
+- La description complète de l'événément 
+
+![Full event](../assets/event/full-event.png)

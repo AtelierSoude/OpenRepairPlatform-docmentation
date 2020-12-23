@@ -108,6 +108,9 @@ Si vous *lancer* l'application pour la *première fois*, il vous faudra génére
 ./init-letsencrypt.sh
 ```
 
+!!! Danger 
+    Attention, ce script n'est actuellement pas encore disponible. Vous pouvez cependant fournir un certificat let'sencrypt existant qui sera renouveler automatiquement
+
 Toutes les données de l'application sont situées dans `./deployment/openrepairplatform_data`. Vous pouvez changer cela en éditant le fichier `./deployment/docker-compose.yml` 
 
 Vous pouvez désormais naviguez sur le site via votre nom de domaine et passer au guide de premier lancement.
