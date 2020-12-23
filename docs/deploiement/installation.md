@@ -6,10 +6,10 @@
 Il existe plusieurs façons de créer votre propre instance. Que ce soit en local sur votre machine ou sur un serveur distant, ce guide présente une **installation à réaliser sur Linux**. Une installation sur Mac OS X est similaire mais nécessite quelques adaptations. Une installation sur un système Windows n'a pas été testée. 
 
 **Installation locale** :
-Pour une installation locale, installez l'application uniquement en mode développement [avec Docker Compose](#mode-developpement-docker-compose) ou via [environnement virtuel](#mode-developpement-environnement-virtuel). 
+Pour une installation locale, installez l'application uniquement via [environnement virtuel](#mode-developpement-environnement-virtuel). 
 
 **Installation sur un serveur distant** :
-En production, installez l'application uniquement en [mode production](#mode-production-docker).
+En production, installez l'application uniquement en [mode production](#mode-production-docker-compose).
 Vous devez louer ou créer votre serveur Linux. Pour plus de simplicité, nous recommandons d'utiliser 
 une instance Cloud. Par exemple chez [Scaleway](https://www.scaleway.com/fr/elements/). 
 Accédez ensuite à votre serveur via [SSH](https://www.scaleway.com/en/docs/configure-new-ssh-key/). 
@@ -85,48 +85,32 @@ DOMAIN_NAME: Le nom de votre domaine
 Après avoir renseigné ces variables, vous pourrez lancer votre instance en mode production ou développement. 
 
 
-## Mode production : Docker
+## Mode production : Docker-compose
 
-Installez Docker 
+Installez Docker-compose
 ```
-sudo apt install docker
-```
-
-Lancez les scripts de démarrage (à la racine du dossier)
-```
- ./deployment/clean.sh && ./deployment/build.sh && ./deployment/run.sh 
+sudo apt install docker-compose
 ```
 
-!!! warning "Nginx ne se lancera pas correctement"
-    En effet, nginx va chercher un certificat SSL afin de sécuriser votre site. Celui-ci n'existe pas encore, il faut donc le créer.
-
-Vous pouvez désormais naviguer sur le site via votre nom de domaine et passer au guide de premier lancement.
-
-**Comment ajouter un certificat ?**
-
-Suivez ce guide et téléchargez vos fichiers `*.pem`, `*.cert` 
-
-...
-
-
-## Mode développement : Docker-compose 
-
-C'est la voie la plus simple pour lancer l'application en locale. Cette installation s'accompagne d'un container Selenium. 
-
-Installez Docker-compose 
+Se placer dans le dossier deployment
 ```
-sudo apt install docker-ce
+ cd deployment
+```
+Lancer le l'application avec docker-compose :
+
+```
+docker-compose up -d
 ```
 
-Lancez cette commande
+Si vous *lancer* l'application pour la *première fois*, il vous faudra générer un *certificat* https *let'sencrypt*, afin de protéger les utilisateurs se connectant à votre site, au moyen du script situé ci-dessous (situé également dans le dossier deployment). Il génèra un certificat https en résolvant un challenge décrit par le protocole [acme](https://en.wikipedia.org/wiki/Automated_Certificate_Management_Environment). Il faut pour cela que vous ayez *configurer* au préalable votre *DNS* pour que le nom de domaine que vous ayez choisi (ex mon_super_atelier.fr) pointe sur l'adresse ip de votre machine, veillez à configurer une *entrée DNS ipv4 et ipv6*. Pour résoudre ce challenge, le *port 80* de votre machine doit être *exposé*. Il peut être bloquer par le firewall de votre machine et/ou d'un équipement réseau local (ex routeur), bien penser à autoriser le trafique ipv4 et ipv6. Il faudra veiller également à ouvrir le *port 443* pour permttre aux utilisateurs de se connecter à votre plateforme. 
+
 ```
-docker-compose up
+./init-letsencrypt.sh
 ```
 
-!!! warning "Nginx ne se lancera pas correctement"
-    En effet, nginx va chercher un certificat inexistant car vous n'avez pas à sécuriser votre site en local. Pas de panique, ce n'est pas important. 
+Toutes les données de l'application sont situées dans `./deployment/openrepairplatform_data`. Vous pouvez changer cela en éditant le fichier `./deployment/docker-compose.yml` 
 
-Vous pouvez désormais naviguer sur le site à l'adresse 127.0.0.1:8000 et passer au guide de premier lancement.
+Vous pouvez désormais naviguez sur le site via votre nom de domaine et passer au guide de premier lancement.
 
 ## Mode développement : Environnement Virtuel 
 
