@@ -17,7 +17,6 @@ nav:
   - 'Déploiement': 
       - 'deploiement/installation.md'
       - 'deploiement/first-lauch.md'
-  - 'architecture.md'
   - 'Compte personnel':
       - 'account/create-account.md'
       - 'account/profil.md'
