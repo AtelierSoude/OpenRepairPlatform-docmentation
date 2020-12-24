@@ -42,7 +42,7 @@ Ces deux formulaires utilisent ce même [formulaire](#formulaire) décrit ci-des
 | ```Description supplémentaire de l'activité``` | Remplace la description de l'activité (celle renseignée lors de la création de l'activité) par le contenu de ce champ |
 | ```Lieu``` | Liste déroulante auto-complétive. La liste des lieux est celle de tous les lieux créés par les organisations. Choisir un lieu parmi ceux proposés. S'il est nouveau et n'apparait pas dans le menu déroulant, il est d'abord nécessaire de le créer parmi les lieux des associations. Voir [créer un lieu](../location.md) |
 | ```Date``` | La date de l'événement |
-| ```Starts at``` | Horaire de début de l'événement. A partir de cet horaire, les fonctionnalités de [gestion de l'événement](manange-event.md) seront disponibles |
+| ```Starts at``` | Horaire de début de l'événement. A partir de cet horaire, les fonctionnalités de [gestion de l'événement](manage-event.md) seront disponibles |
 | ```Ends at``` | Horaire de fin. Une fois cet horaire atteint, l'événement s'archivera automatiquement et ne sera plus visible depuis la page commune des événements. Il est accessible depuis ***Organisation*** - *l'association organisatrice* - ***Événement*** |
 | ```Nombre d'animateurs attendus``` | Indique le nombre d'animateurs-rices attendu. Ce nombre ne limite pas le nombre d'inscriptions |
 | ```Organizers``` | Liste multiple auto-complétive. Permet d'ajouter des animateurs-rices pendant la création de l'événement |
