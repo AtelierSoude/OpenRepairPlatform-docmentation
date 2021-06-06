@@ -74,7 +74,8 @@ SECRET_KEY=CHANGE_ME: Renseignez une chaîne de caractère aléatoire
 Des emails automatiques sont envoyés. Utilisez une adresse e-mail du type "no-reply@example.com"
 ```
 EMAIL_PASSWORD: Le mot de passe de l'adresse email
-EMAIL_HOST_USER: L'adresse mail 
+EMAIL_HOST_USER: L'adresse email ou le service d'envoi d'email
+DEFAULT_FROM_EMAIL: L'adresse e-mail expéditrice 
 EMAIL_HOST=CHANGE_ME: l'adresse IMAP utilisée 
 ```
 **Variable NGINX**
@@ -126,7 +127,7 @@ sudo apt update
 
 Installez ces paquets 
 ```
-sudo apt install python3-dev psycog2 python3-pip postgresql postgresql-contrib setuptools libxml2-dev
+sudo apt install python3-dev libpq-dev python3-pip postgresql postgresql-contrib libxml2-dev
 ```
 
 **POSTGRES**
@@ -139,7 +140,7 @@ Par défaut, en développement, l'application tente de se connecter à POSTGRES 
 
 Créez la base de données (le même nom que celui entré dans le fichier .env)
 ```
-createdb POSTGRES_DB_NAME
+createdb POSTGRES_DB_NAME -E utf-8
 ```
 
 **Environnement virtuel et dépendances**
